@@ -12,3 +12,11 @@ FTPLog:
 	ID(PK)
 	StudentID(FK)
 	FileID(FK)
+
+select Name, Date from student s,file f,ftplog ft where ft.StudentID = s.ID and ft.FileID = f.ID
+group by Date, Name
+order by Name;
+
+select Name, count(Date) as Nr_prezente from student s,file f,ftplog ft where ft.StudentID = s.ID and ft.FileID = f.ID
+group by Name
+order by count(Date) Desc;

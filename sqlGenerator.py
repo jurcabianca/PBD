@@ -50,12 +50,15 @@ def write_sql_scripts_for_inserting_files_and_ftplog(logs, students):
                 for ls in local_students:
                     if(ls[1] == log[0][2]):
                         tmp_file_data = (file_id, log[0][3], td[0], log[0][1])
+                        #getting (ID,FileName, Date, IP)
                         tmp_ftp_log_data = (ftp_log_id, ls[0], file_id)
+                        #getting (ID,StudentID, FileID)
                         ftp_log_id += 1
                         file_id += 1
                         file_table_data.append(tmp_file_data)
                         ftp_log_table_data.append(tmp_ftp_log_data)
                 break
+                #stop after first file found
     file = open('filesInsertScript.sql', 'w')
     file.write('INSERT INTO file(ID, FileName, Date, IP) VALUES\n')
     for index in range(0, len(file_table_data) - 1):
