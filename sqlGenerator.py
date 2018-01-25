@@ -81,7 +81,7 @@ def get_students(logs):
 
 def parse_logs(argv):
     data = []
-    print("Started parsing logs...")
+    print("Started parsing logs! This will take a while...")
     for filename in os.listdir(argv):
         with open(argv + filename) as f:
             for line in f:
