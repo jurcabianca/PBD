@@ -1,0 +1,26 @@
+(000001) 2/23/2017 12:13:28 PM - (not logged in) (192.168.113.100)> Connected, sending welcome message...
+(000001) 2/23/2017 12:13:28 PM - (not logged in) (192.168.113.100)> 220-FileZilla Server version 0.9.43 beta
+(000001) 2/23/2017 12:13:28 PM - (not logged in) (192.168.113.100)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000001) 2/23/2017 12:13:28 PM - (not logged in) (192.168.113.100)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000001) 2/23/2017 12:13:28 PM - (not logged in) (192.168.113.100)> USER anonymous
+(000001) 2/23/2017 12:13:28 PM - (not logged in) (192.168.113.100)> 331 Password required for anonymous
+(000001) 2/23/2017 12:13:28 PM - (not logged in) (192.168.113.100)> PASS ******
+(000001) 2/23/2017 12:13:28 PM - (not logged in) (192.168.113.100)> 530 Login or password incorrect!
+(000001) 2/23/2017 12:13:28 PM - (not logged in) (192.168.113.100)> disconnected.
+(000002) 2/23/2017 12:13:33 PM - (not logged in) (192.168.113.100)> Connected, sending welcome message...
+(000002) 2/23/2017 12:13:33 PM - (not logged in) (192.168.113.100)> 220-FileZilla Server version 0.9.43 beta
+(000002) 2/23/2017 12:13:33 PM - (not logged in) (192.168.113.100)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000002) 2/23/2017 12:13:33 PM - (not logged in) (192.168.113.100)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000002) 2/23/2017 12:13:33 PM - (not logged in) (192.168.113.100)> USER student
+(000002) 2/23/2017 12:13:33 PM - (not logged in) (192.168.113.100)> 331 Password required for student
+(000002) 2/23/2017 12:13:33 PM - (not logged in) (192.168.113.100)> PASS *******
+(000002) 2/23/2017 12:13:33 PM - student (192.168.113.100)> 230 Logged on
+(000002) 2/23/2017 12:13:33 PM - student (192.168.113.100)> TYPE A
+(000002) 2/23/2017 12:13:33 PM - student (192.168.113.100)> 200 Type set to A
+(000002) 2/23/2017 12:13:33 PM - student (192.168.113.100)> EPSV 1
+(000002) 2/23/2017 12:13:33 PM - student (192.168.113.100)> 229 Entering Extended Passive Mode (|||54581|)
+(000002) 2/23/2017 12:14:20 PM - student (192.168.113.100)> disconnected.
+FileZilla Server version 0.9.43 beta started
+Initializing Server.
+Creating listen socket on port 21...
+Server online.

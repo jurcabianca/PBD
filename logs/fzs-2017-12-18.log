@@ -1,0 +1,1728 @@
+FileZilla Server version 0.9.43 beta started
+Initializing Server.
+Creating listen socket on port 21...
+Server online.
+(000001) 12/18/2017 12:01:38 PM - (not logged in) (192.168.113.65)> Connected, sending welcome message...
+(000001) 12/18/2017 12:01:38 PM - (not logged in) (192.168.113.65)> 220-FileZilla Server version 0.9.43 beta
+(000001) 12/18/2017 12:01:38 PM - (not logged in) (192.168.113.65)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000001) 12/18/2017 12:01:38 PM - (not logged in) (192.168.113.65)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000001) 12/18/2017 12:01:38 PM - (not logged in) (192.168.113.65)> USER statia14
+(000001) 12/18/2017 12:01:38 PM - (not logged in) (192.168.113.65)> 331 Password required for statia14
+(000001) 12/18/2017 12:01:38 PM - (not logged in) (192.168.113.65)> PASS ********
+(000001) 12/18/2017 12:01:38 PM - (not logged in) (192.168.113.65)> 530 Login or password incorrect!
+(000001) 12/18/2017 12:01:41 PM - (not logged in) (192.168.113.65)> USER student
+(000001) 12/18/2017 12:01:41 PM - (not logged in) (192.168.113.65)> 331 Password required for student
+(000001) 12/18/2017 12:01:43 PM - (not logged in) (192.168.113.65)> PASS *******
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> 230 Logged on
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> SYST
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> 215 UNIX emulated by FileZilla
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> FEAT
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> 211-Features:
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)>  MDTM
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)>  REST STREAM
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)>  SIZE
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)>  MLST type*;size*;modify*;
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)>  MLSD
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)>  UTF8
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)>  CLNT
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)>  MFMT
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> 211 End
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> CLNT Total Commander (UTF-8)
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> 200 Don't care
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> OPTS UTF8 ON
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> 202 UTF8 mode is always enabled. No need to send this command.
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> CWD ORCL
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> 550 CWD failed. "/ORCL": directory not found.
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> PWD
+(000001) 12/18/2017 12:01:43 PM - student (192.168.113.65)> 257 "/" is current directory.
+(000001) 12/18/2017 12:01:44 PM - student (192.168.113.65)> TYPE A
+(000001) 12/18/2017 12:01:44 PM - student (192.168.113.65)> 200 Type set to A
+(000001) 12/18/2017 12:01:44 PM - student (192.168.113.65)> PORT 192,168,113,65,4,8
+(000001) 12/18/2017 12:01:44 PM - student (192.168.113.65)> 200 Port command successful
+(000001) 12/18/2017 12:01:44 PM - student (192.168.113.65)> MLSD
+(000001) 12/18/2017 12:01:44 PM - student (192.168.113.65)> 150 Opening data channel for directory listing of "/"
+(000001) 12/18/2017 12:01:44 PM - student (192.168.113.65)> 226 Successfully transferred "/"
+(000001) 12/18/2017 12:01:45 PM - student (192.168.113.65)> CWD Dbd
+(000001) 12/18/2017 12:01:45 PM - student (192.168.113.65)> 250 CWD successful. "/Dbd" is current directory.
+(000001) 12/18/2017 12:01:45 PM - student (192.168.113.65)> PORT 192,168,113,65,4,9
+(000001) 12/18/2017 12:01:45 PM - student (192.168.113.65)> 200 Port command successful
+(000001) 12/18/2017 12:01:45 PM - student (192.168.113.65)> MLSD
+(000001) 12/18/2017 12:01:46 PM - student (192.168.113.65)> 150 Opening data channel for directory listing of "/Dbd"
+(000001) 12/18/2017 12:01:46 PM - student (192.168.113.65)> 226 Successfully transferred "/Dbd"
+(000001) 12/18/2017 12:01:48 PM - student (192.168.113.65)> CWD Labs
+(000001) 12/18/2017 12:01:48 PM - student (192.168.113.65)> 250 CWD successful. "/Dbd/Labs" is current directory.
+(000001) 12/18/2017 12:01:49 PM - student (192.168.113.65)> PORT 192,168,113,65,4,13
+(000001) 12/18/2017 12:01:49 PM - student (192.168.113.65)> 200 Port command successful
+(000001) 12/18/2017 12:01:49 PM - student (192.168.113.65)> MLSD
+(000001) 12/18/2017 12:01:49 PM - student (192.168.113.65)> 150 Opening data channel for directory listing of "/Dbd/Labs"
+(000001) 12/18/2017 12:01:49 PM - student (192.168.113.65)> 226 Successfully transferred "/Dbd/Labs"
+(000001) 12/18/2017 12:03:49 PM - student (192.168.113.65)> 421 Connection timed out.
+(000001) 12/18/2017 12:03:49 PM - student (192.168.113.65)> disconnected.
+(000002) 12/18/2017 12:03:56 PM - (not logged in) (192.168.113.54)> Connected, sending welcome message...
+(000002) 12/18/2017 12:03:56 PM - (not logged in) (192.168.113.54)> 220-FileZilla Server version 0.9.43 beta
+(000002) 12/18/2017 12:03:56 PM - (not logged in) (192.168.113.54)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000002) 12/18/2017 12:03:56 PM - (not logged in) (192.168.113.54)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000002) 12/18/2017 12:03:56 PM - (not logged in) (192.168.113.54)> USER student
+(000002) 12/18/2017 12:03:56 PM - (not logged in) (192.168.113.54)> 331 Password required for student
+(000002) 12/18/2017 12:04:04 PM - (not logged in) (192.168.113.54)> PASS *******
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)> 230 Logged on
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)> SYST
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)> 215 UNIX emulated by FileZilla
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)> FEAT
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)> 211-Features:
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)>  MDTM
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)>  REST STREAM
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)>  SIZE
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)>  MLST type*;size*;modify*;
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)>  MLSD
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)>  UTF8
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)>  CLNT
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)>  MFMT
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)> 211 End
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)> CLNT Total Commander (UTF-8)
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)> 200 Don't care
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)> OPTS UTF8 ON
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)> 202 UTF8 mode is always enabled. No need to send this command.
+(000002) 12/18/2017 12:04:04 PM - student (192.168.113.54)> CWD /Pbd/Stats/
+(000002) 12/18/2017 12:04:05 PM - student (192.168.113.54)> 250 CWD successful. "/Pbd/Stats" is current directory.
+(000002) 12/18/2017 12:04:07 PM - student (192.168.113.54)> TYPE A
+(000002) 12/18/2017 12:04:07 PM - student (192.168.113.54)> 200 Type set to A
+(000002) 12/18/2017 12:04:07 PM - student (192.168.113.54)> PORT 192,168,113,54,4,13
+(000002) 12/18/2017 12:04:07 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:07 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:04:07 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Pbd/Stats"
+(000002) 12/18/2017 12:04:07 PM - student (192.168.113.54)> 226 Successfully transferred "/Pbd/Stats"
+(000002) 12/18/2017 12:04:09 PM - student (192.168.113.54)> CDUP
+(000002) 12/18/2017 12:04:09 PM - student (192.168.113.54)> 200 CDUP successful. "/Pbd" is current directory.
+(000002) 12/18/2017 12:04:09 PM - student (192.168.113.54)> PWD
+(000002) 12/18/2017 12:04:09 PM - student (192.168.113.54)> 257 "/Pbd" is current directory.
+(000002) 12/18/2017 12:04:09 PM - student (192.168.113.54)> PORT 192,168,113,54,4,14
+(000002) 12/18/2017 12:04:09 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:09 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:04:09 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Pbd"
+(000002) 12/18/2017 12:04:09 PM - student (192.168.113.54)> 226 Successfully transferred "/Pbd"
+(000002) 12/18/2017 12:04:11 PM - student (192.168.113.54)> CWD Test
+(000002) 12/18/2017 12:04:11 PM - student (192.168.113.54)> 250 CWD successful. "/Pbd/Test" is current directory.
+(000002) 12/18/2017 12:04:11 PM - student (192.168.113.54)> PORT 192,168,113,54,4,16
+(000002) 12/18/2017 12:04:11 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:11 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:04:11 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Pbd/Test"
+(000002) 12/18/2017 12:04:11 PM - student (192.168.113.54)> 226 Successfully transferred "/Pbd/Test"
+(000002) 12/18/2017 12:04:18 PM - student (192.168.113.54)> CWD Subiecte
+(000002) 12/18/2017 12:04:18 PM - student (192.168.113.54)> 250 CWD successful. "/Pbd/Test/Subiecte" is current directory.
+(000002) 12/18/2017 12:04:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,18
+(000002) 12/18/2017 12:04:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:18 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:04:18 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Pbd/Test/Subiecte"
+(000002) 12/18/2017 12:04:18 PM - student (192.168.113.54)> 226 Successfully transferred "/Pbd/Test/Subiecte"
+(000003) 12/18/2017 12:04:19 PM - (not logged in) (192.168.113.52)> Connected, sending welcome message...
+(000003) 12/18/2017 12:04:19 PM - (not logged in) (192.168.113.52)> 220-FileZilla Server version 0.9.43 beta
+(000003) 12/18/2017 12:04:19 PM - (not logged in) (192.168.113.52)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000003) 12/18/2017 12:04:19 PM - (not logged in) (192.168.113.52)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000003) 12/18/2017 12:04:19 PM - (not logged in) (192.168.113.52)> USER student
+(000003) 12/18/2017 12:04:19 PM - (not logged in) (192.168.113.52)> 331 Password required for student
+(000003) 12/18/2017 12:04:19 PM - (not logged in) (192.168.113.52)> PASS *******
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> 230 Logged on
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> SYST
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> 215 UNIX emulated by FileZilla
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> FEAT
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> 211-Features:
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)>  MDTM
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)>  REST STREAM
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)>  SIZE
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)>  MLST type*;size*;modify*;
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)>  MLSD
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)>  UTF8
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)>  CLNT
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)>  MFMT
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> 211 End
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> CLNT Total Commander (UTF-8)
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> 200 Don't care
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> OPTS UTF8 ON
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> 202 UTF8 mode is always enabled. No need to send this command.
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> PWD
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> 257 "/" is current directory.
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> TYPE A
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> 200 Type set to A
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> PORT 192,168,113,52,4,44
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> 200 Port command successful
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> MLSD
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> 150 Opening data channel for directory listing of "/"
+(000003) 12/18/2017 12:04:19 PM - student (192.168.113.52)> 226 Successfully transferred "/"
+(000003) 12/18/2017 12:04:23 PM - student (192.168.113.52)> CWD Dbd
+(000003) 12/18/2017 12:04:23 PM - student (192.168.113.52)> 250 CWD successful. "/Dbd" is current directory.
+(000003) 12/18/2017 12:04:23 PM - student (192.168.113.52)> PORT 192,168,113,52,4,45
+(000003) 12/18/2017 12:04:23 PM - student (192.168.113.52)> 200 Port command successful
+(000003) 12/18/2017 12:04:23 PM - student (192.168.113.52)> MLSD
+(000003) 12/18/2017 12:04:23 PM - student (192.168.113.52)> 150 Opening data channel for directory listing of "/Dbd"
+(000003) 12/18/2017 12:04:23 PM - student (192.168.113.52)> 226 Successfully transferred "/Dbd"
+(000003) 12/18/2017 12:04:26 PM - student (192.168.113.52)> CWD Labs
+(000003) 12/18/2017 12:04:26 PM - student (192.168.113.52)> 250 CWD successful. "/Dbd/Labs" is current directory.
+(000003) 12/18/2017 12:04:26 PM - student (192.168.113.52)> PORT 192,168,113,52,4,46
+(000003) 12/18/2017 12:04:26 PM - student (192.168.113.52)> 200 Port command successful
+(000003) 12/18/2017 12:04:26 PM - student (192.168.113.52)> MLSD
+(000003) 12/18/2017 12:04:26 PM - student (192.168.113.52)> 150 Opening data channel for directory listing of "/Dbd/Labs"
+(000003) 12/18/2017 12:04:26 PM - student (192.168.113.52)> 226 Successfully transferred "/Dbd/Labs"
+(000003) 12/18/2017 12:04:27 PM - student (192.168.113.52)> CDUP
+(000003) 12/18/2017 12:04:27 PM - student (192.168.113.52)> 200 CDUP successful. "/Dbd" is current directory.
+(000003) 12/18/2017 12:04:27 PM - student (192.168.113.52)> PWD
+(000003) 12/18/2017 12:04:27 PM - student (192.168.113.52)> 257 "/Dbd" is current directory.
+(000003) 12/18/2017 12:04:30 PM - student (192.168.113.52)> CWD Stud
+(000003) 12/18/2017 12:04:30 PM - student (192.168.113.52)> 250 CWD successful. "/Dbd/Stud" is current directory.
+(000003) 12/18/2017 12:04:30 PM - student (192.168.113.52)> PORT 192,168,113,52,4,47
+(000003) 12/18/2017 12:04:30 PM - student (192.168.113.52)> 200 Port command successful
+(000003) 12/18/2017 12:04:30 PM - student (192.168.113.52)> MLSD
+(000003) 12/18/2017 12:04:30 PM - student (192.168.113.52)> 150 Opening data channel for directory listing of "/Dbd/Stud"
+(000003) 12/18/2017 12:04:30 PM - student (192.168.113.52)> 226 Successfully transferred "/Dbd/Stud"
+(000003) 12/18/2017 12:04:31 PM - student (192.168.113.52)> CWD Monday 12-14
+(000003) 12/18/2017 12:04:31 PM - student (192.168.113.52)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000003) 12/18/2017 12:04:31 PM - student (192.168.113.52)> PORT 192,168,113,52,4,48
+(000003) 12/18/2017 12:04:31 PM - student (192.168.113.52)> 200 Port command successful
+(000003) 12/18/2017 12:04:31 PM - student (192.168.113.52)> MLSD
+(000003) 12/18/2017 12:04:31 PM - student (192.168.113.52)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14"
+(000003) 12/18/2017 12:04:31 PM - student (192.168.113.52)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14"
+(000003) 12/18/2017 12:04:33 PM - student (192.168.113.52)> CWD RALUCA GHEORGHITA
+(000003) 12/18/2017 12:04:33 PM - student (192.168.113.52)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA" is current directory.
+(000003) 12/18/2017 12:04:33 PM - student (192.168.113.52)> PORT 192,168,113,52,4,49
+(000003) 12/18/2017 12:04:33 PM - student (192.168.113.52)> 200 Port command successful
+(000003) 12/18/2017 12:04:33 PM - student (192.168.113.52)> MLSD
+(000003) 12/18/2017 12:04:33 PM - student (192.168.113.52)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA"
+(000003) 12/18/2017 12:04:33 PM - student (192.168.113.52)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA"
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> TYPE I
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 200 Type set to I
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> PORT 192,168,113,54,4,19
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> RETR Test05.pdf
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Pbd/Test/Subiecte/Test05.pdf"
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 226 Successfully transferred "/Pbd/Test/Subiecte/Test05.pdf"
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> PORT 192,168,113,54,4,20
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> RETR Test04.txt
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Pbd/Test/Subiecte/Test04.txt"
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 226 Successfully transferred "/Pbd/Test/Subiecte/Test04.txt"
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> PORT 192,168,113,54,4,21
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> RETR Test03.txt
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Pbd/Test/Subiecte/Test03.txt"
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 226 Successfully transferred "/Pbd/Test/Subiecte/Test03.txt"
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> PORT 192,168,113,54,4,22
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> RETR Test02.txt
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Pbd/Test/Subiecte/Test02.txt"
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 226 Successfully transferred "/Pbd/Test/Subiecte/Test02.txt"
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> PORT 192,168,113,54,4,23
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> RETR Test01.txt
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Pbd/Test/Subiecte/Test01.txt"
+(000002) 12/18/2017 12:04:39 PM - student (192.168.113.54)> 226 Successfully transferred "/Pbd/Test/Subiecte/Test01.txt"
+(000002) 12/18/2017 12:04:43 PM - student (192.168.113.54)> CDUP
+(000002) 12/18/2017 12:04:43 PM - student (192.168.113.54)> 200 CDUP successful. "/Pbd/Test" is current directory.
+(000002) 12/18/2017 12:04:43 PM - student (192.168.113.54)> PWD
+(000002) 12/18/2017 12:04:43 PM - student (192.168.113.54)> 257 "/Pbd/Test" is current directory.
+(000002) 12/18/2017 12:04:46 PM - student (192.168.113.54)> CDUP
+(000002) 12/18/2017 12:04:46 PM - student (192.168.113.54)> 200 CDUP successful. "/Pbd" is current directory.
+(000002) 12/18/2017 12:04:46 PM - student (192.168.113.54)> PWD
+(000002) 12/18/2017 12:04:46 PM - student (192.168.113.54)> 257 "/Pbd" is current directory.
+(000002) 12/18/2017 12:04:48 PM - student (192.168.113.54)> CDUP
+(000002) 12/18/2017 12:04:48 PM - student (192.168.113.54)> 200 CDUP successful. "/" is current directory.
+(000002) 12/18/2017 12:04:48 PM - student (192.168.113.54)> PWD
+(000002) 12/18/2017 12:04:48 PM - student (192.168.113.54)> 257 "/" is current directory.
+(000002) 12/18/2017 12:04:48 PM - student (192.168.113.54)> TYPE A
+(000002) 12/18/2017 12:04:48 PM - student (192.168.113.54)> 200 Type set to A
+(000002) 12/18/2017 12:04:48 PM - student (192.168.113.54)> PORT 192,168,113,54,4,24
+(000002) 12/18/2017 12:04:48 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:48 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:04:48 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/"
+(000002) 12/18/2017 12:04:48 PM - student (192.168.113.54)> 226 Successfully transferred "/"
+(000003) 12/18/2017 12:04:48 PM - student (192.168.113.52)> CDUP
+(000003) 12/18/2017 12:04:48 PM - student (192.168.113.52)> 200 CDUP successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000003) 12/18/2017 12:04:48 PM - student (192.168.113.52)> PWD
+(000003) 12/18/2017 12:04:48 PM - student (192.168.113.52)> 257 "/Dbd/Stud/Monday 12-14" is current directory.
+(000002) 12/18/2017 12:04:49 PM - student (192.168.113.54)> CWD Dbd
+(000002) 12/18/2017 12:04:49 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd" is current directory.
+(000002) 12/18/2017 12:04:49 PM - student (192.168.113.54)> PORT 192,168,113,54,4,25
+(000002) 12/18/2017 12:04:49 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:49 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:04:49 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd"
+(000002) 12/18/2017 12:04:49 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd"
+(000003) 12/18/2017 12:04:49 PM - student (192.168.113.52)> CDUP
+(000003) 12/18/2017 12:04:49 PM - student (192.168.113.52)> 200 CDUP successful. "/Dbd/Stud" is current directory.
+(000003) 12/18/2017 12:04:49 PM - student (192.168.113.52)> PWD
+(000003) 12/18/2017 12:04:49 PM - student (192.168.113.52)> 257 "/Dbd/Stud" is current directory.
+(000002) 12/18/2017 12:04:50 PM - student (192.168.113.54)> CWD Test
+(000002) 12/18/2017 12:04:50 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Test" is current directory.
+(000002) 12/18/2017 12:04:50 PM - student (192.168.113.54)> PORT 192,168,113,54,4,26
+(000002) 12/18/2017 12:04:50 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:50 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:04:50 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Test"
+(000002) 12/18/2017 12:04:50 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Test"
+(000003) 12/18/2017 12:04:50 PM - student (192.168.113.52)> CDUP
+(000003) 12/18/2017 12:04:50 PM - student (192.168.113.52)> 200 CDUP successful. "/Dbd" is current directory.
+(000003) 12/18/2017 12:04:50 PM - student (192.168.113.52)> PWD
+(000003) 12/18/2017 12:04:50 PM - student (192.168.113.52)> 257 "/Dbd" is current directory.
+(000002) 12/18/2017 12:04:51 PM - student (192.168.113.54)> CWD Test01
+(000002) 12/18/2017 12:04:51 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Test/Test01" is current directory.
+(000002) 12/18/2017 12:04:51 PM - student (192.168.113.54)> PORT 192,168,113,54,4,27
+(000002) 12/18/2017 12:04:51 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:04:51 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:04:51 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Test/Test01"
+(000002) 12/18/2017 12:04:51 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Test/Test01"
+(000003) 12/18/2017 12:04:51 PM - student (192.168.113.52)> CWD Test
+(000003) 12/18/2017 12:04:51 PM - student (192.168.113.52)> 250 CWD successful. "/Dbd/Test" is current directory.
+(000003) 12/18/2017 12:04:51 PM - student (192.168.113.52)> PORT 192,168,113,52,4,50
+(000003) 12/18/2017 12:04:51 PM - student (192.168.113.52)> 200 Port command successful
+(000003) 12/18/2017 12:04:51 PM - student (192.168.113.52)> MLSD
+(000003) 12/18/2017 12:04:51 PM - student (192.168.113.52)> 150 Opening data channel for directory listing of "/Dbd/Test"
+(000003) 12/18/2017 12:04:51 PM - student (192.168.113.52)> 226 Successfully transferred "/Dbd/Test"
+(000002) 12/18/2017 12:04:53 PM - student (192.168.113.54)> CDUP
+(000002) 12/18/2017 12:04:53 PM - student (192.168.113.54)> 200 CDUP successful. "/Dbd/Test" is current directory.
+(000002) 12/18/2017 12:04:53 PM - student (192.168.113.54)> PWD
+(000002) 12/18/2017 12:04:53 PM - student (192.168.113.54)> 257 "/Dbd/Test" is current directory.
+(000003) 12/18/2017 12:04:53 PM - student (192.168.113.52)> CDUP
+(000003) 12/18/2017 12:04:53 PM - student (192.168.113.52)> 200 CDUP successful. "/Dbd" is current directory.
+(000003) 12/18/2017 12:04:53 PM - student (192.168.113.52)> PWD
+(000003) 12/18/2017 12:04:53 PM - student (192.168.113.52)> 257 "/Dbd" is current directory.
+(000002) 12/18/2017 12:04:57 PM - student (192.168.113.54)> CDUP
+(000002) 12/18/2017 12:04:57 PM - student (192.168.113.54)> 200 CDUP successful. "/Dbd" is current directory.
+(000002) 12/18/2017 12:04:57 PM - student (192.168.113.54)> PWD
+(000002) 12/18/2017 12:04:57 PM - student (192.168.113.54)> 257 "/Dbd" is current directory.
+(000003) 12/18/2017 12:04:59 PM - student (192.168.113.52)> CWD Labs
+(000003) 12/18/2017 12:04:59 PM - student (192.168.113.52)> 250 CWD successful. "/Dbd/Labs" is current directory.
+(000002) 12/18/2017 12:04:59 PM - student (192.168.113.54)> CWD Stud
+(000002) 12/18/2017 12:04:59 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud" is current directory.
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> PORT 192,168,113,54,4,28
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Stud"
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud"
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> CWD Monday 12-14
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> PORT 192,168,113,54,4,29
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14"
+(000002) 12/18/2017 12:05:00 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14"
+(000003) 12/18/2017 12:05:01 PM - student (192.168.113.52)> CDUP
+(000003) 12/18/2017 12:05:01 PM - student (192.168.113.52)> 200 CDUP successful. "/Dbd" is current directory.
+(000003) 12/18/2017 12:05:01 PM - student (192.168.113.52)> PWD
+(000003) 12/18/2017 12:05:01 PM - student (192.168.113.52)> 257 "/Dbd" is current directory.
+(000003) 12/18/2017 12:05:02 PM - student (192.168.113.52)> CDUP
+(000003) 12/18/2017 12:05:02 PM - student (192.168.113.52)> 200 CDUP successful. "/" is current directory.
+(000003) 12/18/2017 12:05:02 PM - student (192.168.113.52)> PWD
+(000003) 12/18/2017 12:05:02 PM - student (192.168.113.52)> 257 "/" is current directory.
+(000003) 12/18/2017 12:05:08 PM - student (192.168.113.52)> CWD Dbd
+(000003) 12/18/2017 12:05:08 PM - student (192.168.113.52)> 250 CWD successful. "/Dbd" is current directory.
+(000003) 12/18/2017 12:05:10 PM - student (192.168.113.52)> CWD Labs
+(000003) 12/18/2017 12:05:10 PM - student (192.168.113.52)> 250 CWD successful. "/Dbd/Labs" is current directory.
+(000003) 12/18/2017 12:05:13 PM - student (192.168.113.52)> CWD Lab06
+(000003) 12/18/2017 12:05:13 PM - student (192.168.113.52)> 250 CWD successful. "/Dbd/Labs/Lab06" is current directory.
+(000003) 12/18/2017 12:05:13 PM - student (192.168.113.52)> PORT 192,168,113,52,4,60
+(000003) 12/18/2017 12:05:13 PM - student (192.168.113.52)> 200 Port command successful
+(000003) 12/18/2017 12:05:13 PM - student (192.168.113.52)> MLSD
+(000003) 12/18/2017 12:05:13 PM - student (192.168.113.52)> 150 Opening data channel for directory listing of "/Dbd/Labs/Lab06"
+(000003) 12/18/2017 12:05:13 PM - student (192.168.113.52)> 226 Successfully transferred "/Dbd/Labs/Lab06"
+(000002) 12/18/2017 12:05:13 PM - student (192.168.113.54)> CWD Elvis CARAMETE
+(000002) 12/18/2017 12:05:13 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Elvis CARAMETE" is current directory.
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,30
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> TYPE I
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Type set to I
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,31
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR exportLab1.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/exportLab1.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/exportLab1.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,32
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR exportLab12.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/exportLab12.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/exportLab12.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,33
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR exportLab5.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/exportLab5.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/exportLab5.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,34
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR lab02_work.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/lab02_work.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/lab02_work.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,35
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR lab1_work.txt
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/lab1_work.txt"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/lab1_work.txt"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,36
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR lab4_work.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/lab4_work.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/lab4_work.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,37
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR lab5_work.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/lab5_work.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/lab5_work.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,38
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR lab6_work.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/lab6_work.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/lab6_work.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,39
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR work_lab12.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/work_lab12.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/work_lab12.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> CWD Lab7
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab7" is current directory.
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> TYPE A
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Type set to A
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,40
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab7"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab7"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> TYPE I
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Type set to I
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,41
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR exportLab7.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab7/exportLab7.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab7/exportLab7.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,42
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR work_lab7.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab7/work_lab7.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab7/work_lab7.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> CWD /Dbd/Stud/Monday 12-14/Elvis CARAMETE
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Elvis CARAMETE" is current directory.
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> CWD Lab8
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab8" is current directory.
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> TYPE A
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Type set to A
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,43
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab8"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab8"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> TYPE I
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Type set to I
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,44
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR exportLab8.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab8/exportLab8.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab8/exportLab8.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,45
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR work_lab8.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab8/work_lab8.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab8/work_lab8.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> CWD /Dbd/Stud/Monday 12-14/Elvis CARAMETE
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Elvis CARAMETE" is current directory.
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> CWD Lab9
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab9" is current directory.
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> TYPE A
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Type set to A
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,47
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab9"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab9"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> TYPE I
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Type set to I
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> PORT 192,168,113,54,4,48
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> RETR work_lab9.sql
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab9/work_lab9.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Elvis CARAMETE/Lab9/work_lab9.sql"
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> CWD /Dbd/Stud/Monday 12-14/Elvis CARAMETE
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Elvis CARAMETE" is current directory.
+(000003) 12/18/2017 12:05:14 PM - student (192.168.113.52)> CDUP
+(000003) 12/18/2017 12:05:14 PM - student (192.168.113.52)> 200 CDUP successful. "/Dbd/Labs" is current directory.
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> CWD /Dbd/Stud/Monday 12-14
+(000002) 12/18/2017 12:05:14 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000003) 12/18/2017 12:05:14 PM - student (192.168.113.52)> PWD
+(000003) 12/18/2017 12:05:14 PM - student (192.168.113.52)> 257 "/Dbd/Labs" is current directory.
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> CWD CATALIN BOIE
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/CATALIN BOIE" is current directory.
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> TYPE A
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Type set to A
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,49
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/CATALIN BOIE"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> TYPE I
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Type set to I
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,50
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> RETR 04.12.2017_week_11.sql
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/04.12.2017_week_11.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/04.12.2017_week_11.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,51
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> RETR 11.12.2017_week_12.sql
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/11.12.2017_week_12.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/11.12.2017_week_12.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,52
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> RETR 27.11.2017.sql
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/27.11.2017.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/27.11.2017.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,53
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> RETR exportLab12.sql
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/exportLab12.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/exportLab12.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,54
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> RETR exportweek5.sql
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/exportweek5.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/exportweek5.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,55
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> RETR export_LAB1.sql
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/export_LAB1.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/export_LAB1.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,56
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> RETR lab 7.sql
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/lab 7.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/lab 7.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,57
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> RETR lab2.txt
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/lab2.txt"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/lab2.txt"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,58
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> RETR LABWEEK4.sql
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/LABWEEK4.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/LABWEEK4.sql"
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> PORT 192,168,113,54,4,59
+(000002) 12/18/2017 12:05:18 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> RETR LABWEEK5.sql
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/LABWEEK5.sql"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/LABWEEK5.sql"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> SIZE todoCBoie.txt
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 213 0
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> PORT 192,168,113,54,4,60
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> RETR todoCBoie.txt
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/todoCBoie.txt"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/todoCBoie.txt"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> PORT 192,168,113,54,4,61
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> RETR work_lab10.sql
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/work_lab10.sql"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/work_lab10.sql"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> CWD week9
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/CATALIN BOIE/week9" is current directory.
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> TYPE A
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 200 Type set to A
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> PORT 192,168,113,54,4,62
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/week9"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/week9"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> TYPE I
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 200 Type set to I
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> PORT 192,168,113,54,4,63
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> RETR 20.11.2017.sql
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/week9/20.11.2017.sql"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/week9/20.11.2017.sql"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> PORT 192,168,113,54,4,64
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> RETR CATALINBOIE_20.11.2017.sql
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/CATALIN BOIE/week9/CATALINBOIE_20.11.2017.sql"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/CATALIN BOIE/week9/CATALINBOIE_20.11.2017.sql"
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> CWD /Dbd/Stud/Monday 12-14/CATALIN BOIE
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/CATALIN BOIE" is current directory.
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> CWD /Dbd/Stud/Monday 12-14
+(000002) 12/18/2017 12:05:19 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> CWD MARINESCU Alexandru
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru" is current directory.
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> TYPE A
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> 200 Type set to A
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> PORT 192,168,113,54,4,65
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru"
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru"
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> TYPE I
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> 200 Type set to I
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> PORT 192,168,113,54,4,66
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> RETR export.sql
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/export.sql"
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/export.sql"
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> PORT 192,168,113,54,4,67
+(000002) 12/18/2017 12:05:21 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> RETR exportL4.sql
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/exportL4.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/exportL4.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> PORT 192,168,113,54,4,68
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> RETR lab2.sql
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/lab2.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/lab2.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> PORT 192,168,113,54,4,69
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> RETR lab5.sql
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/lab5.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/lab5.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> PORT 192,168,113,54,4,70
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> RETR lab6.sql
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/lab6.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/lab6.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> PORT 192,168,113,54,4,71
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> RETR labWeek9.sql
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/labWeek9.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/labWeek9.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> PORT 192,168,113,54,4,72
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> RETR mytable.sql
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/mytable.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/mytable.sql"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> PORT 192,168,113,54,4,73
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> RETR week11.txt
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/week11.txt"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/week11.txt"
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> CWD /Dbd/Stud/Monday 12-14
+(000002) 12/18/2017 12:05:22 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> CWD RALUCA GHEORGHITA
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA" is current directory.
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> TYPE A
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Type set to A
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,74
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> MLSD
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> TYPE I
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Type set to I
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,75
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR export04-12-2017.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/export04-12-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/export04-12-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,76
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR export11-12-2017.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/export11-12-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/export11-12-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,77
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR export20-11-2017.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/export20-11-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/export20-11-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,78
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR export27-11-2017.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/export27-11-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/export27-11-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,79
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR exportLab1.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/exportLab1.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/exportLab1.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,80
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR exportLab5.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/exportLab5.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/exportLab5.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,81
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR lab-20-11-2017.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab-20-11-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab-20-11-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,82
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR lab.txt
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab.txt"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab.txt"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,83
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR lab04-12-2017.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab04-12-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab04-12-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,84
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR Lab1.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/Lab1.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/Lab1.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,85
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR lab11-12-2017.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab11-12-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab11-12-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,86
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR Lab2.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/Lab2.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/Lab2.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,87
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR lab27-11-2017.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab27-11-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab27-11-2017.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,88
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR lab4.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab4.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab4.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,89
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR lab5.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab5.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab5.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> PORT 192,168,113,54,4,90
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 200 Port command successful
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> RETR lab6.sql
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab6.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/RALUCA GHEORGHITA/lab6.sql"
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> CWD /Dbd/Stud/Monday 12-14
+(000002) 12/18/2017 12:05:29 PM - student (192.168.113.54)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000003) 12/18/2017 12:07:15 PM - student (192.168.113.52)> 421 Connection timed out.
+(000003) 12/18/2017 12:07:15 PM - student (192.168.113.52)> disconnected.
+(000002) 12/18/2017 12:07:30 PM - student (192.168.113.54)> 421 Connection timed out.
+(000002) 12/18/2017 12:07:30 PM - student (192.168.113.54)> disconnected.
+(000004) 12/18/2017 12:07:52 PM - (not logged in) (192.168.113.55)> Connected, sending welcome message...
+(000004) 12/18/2017 12:07:52 PM - (not logged in) (192.168.113.55)> 220-FileZilla Server version 0.9.43 beta
+(000004) 12/18/2017 12:07:52 PM - (not logged in) (192.168.113.55)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000004) 12/18/2017 12:07:52 PM - (not logged in) (192.168.113.55)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000004) 12/18/2017 12:07:52 PM - (not logged in) (192.168.113.55)> USER student
+(000004) 12/18/2017 12:07:52 PM - (not logged in) (192.168.113.55)> 331 Password required for student
+(000004) 12/18/2017 12:07:56 PM - (not logged in) (192.168.113.55)> PASS *******
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> 230 Logged on
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> SYST
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> 215 UNIX emulated by FileZilla
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> FEAT
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> 211-Features:
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)>  MDTM
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)>  REST STREAM
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)>  SIZE
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)>  MLST type*;size*;modify*;
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)>  MLSD
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)>  UTF8
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)>  CLNT
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)>  MFMT
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> 211 End
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> CLNT Total Commander (UTF-8)
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> 200 Don't care
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> OPTS UTF8 ON
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> 202 UTF8 mode is always enabled. No need to send this command.
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> CWD /Pbd/Stud/
+(000004) 12/18/2017 12:07:56 PM - student (192.168.113.55)> 250 CWD successful. "/Pbd/Stud" is current directory.
+(000004) 12/18/2017 12:07:57 PM - student (192.168.113.55)> TYPE A
+(000004) 12/18/2017 12:07:57 PM - student (192.168.113.55)> 200 Type set to A
+(000004) 12/18/2017 12:07:57 PM - student (192.168.113.55)> PORT 192,168,113,55,4,13
+(000004) 12/18/2017 12:07:57 PM - student (192.168.113.55)> 200 Port command successful
+(000004) 12/18/2017 12:07:57 PM - student (192.168.113.55)> MLSD
+(000004) 12/18/2017 12:07:57 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Pbd/Stud"
+(000004) 12/18/2017 12:07:57 PM - student (192.168.113.55)> 226 Successfully transferred "/Pbd/Stud"
+(000004) 12/18/2017 12:08:06 PM - student (192.168.113.55)> CDUP
+(000004) 12/18/2017 12:08:06 PM - student (192.168.113.55)> 200 CDUP successful. "/Pbd" is current directory.
+(000004) 12/18/2017 12:08:06 PM - student (192.168.113.55)> PWD
+(000004) 12/18/2017 12:08:06 PM - student (192.168.113.55)> 257 "/Pbd" is current directory.
+(000004) 12/18/2017 12:08:06 PM - student (192.168.113.55)> PORT 192,168,113,55,4,14
+(000004) 12/18/2017 12:08:06 PM - student (192.168.113.55)> 200 Port command successful
+(000004) 12/18/2017 12:08:06 PM - student (192.168.113.55)> MLSD
+(000004) 12/18/2017 12:08:06 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Pbd"
+(000004) 12/18/2017 12:08:06 PM - student (192.168.113.55)> 226 Successfully transferred "/Pbd"
+(000004) 12/18/2017 12:08:11 PM - student (192.168.113.55)> CWD Test
+(000004) 12/18/2017 12:08:11 PM - student (192.168.113.55)> 250 CWD successful. "/Pbd/Test" is current directory.
+(000004) 12/18/2017 12:08:11 PM - student (192.168.113.55)> PORT 192,168,113,55,4,15
+(000004) 12/18/2017 12:08:11 PM - student (192.168.113.55)> 200 Port command successful
+(000004) 12/18/2017 12:08:11 PM - student (192.168.113.55)> MLSD
+(000004) 12/18/2017 12:08:11 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Pbd/Test"
+(000004) 12/18/2017 12:08:11 PM - student (192.168.113.55)> 226 Successfully transferred "/Pbd/Test"
+(000004) 12/18/2017 12:08:12 PM - student (192.168.113.55)> CDUP
+(000004) 12/18/2017 12:08:12 PM - student (192.168.113.55)> 200 CDUP successful. "/Pbd" is current directory.
+(000004) 12/18/2017 12:08:12 PM - student (192.168.113.55)> PWD
+(000004) 12/18/2017 12:08:12 PM - student (192.168.113.55)> 257 "/Pbd" is current directory.
+(000004) 12/18/2017 12:08:13 PM - student (192.168.113.55)> CWD Test
+(000004) 12/18/2017 12:08:13 PM - student (192.168.113.55)> 250 CWD successful. "/Pbd/Test" is current directory.
+(000004) 12/18/2017 12:08:14 PM - student (192.168.113.55)> CDUP
+(000004) 12/18/2017 12:08:14 PM - student (192.168.113.55)> 200 CDUP successful. "/Pbd" is current directory.
+(000004) 12/18/2017 12:08:14 PM - student (192.168.113.55)> PWD
+(000004) 12/18/2017 12:08:14 PM - student (192.168.113.55)> 257 "/Pbd" is current directory.
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> CDUP
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> 200 CDUP successful. "/" is current directory.
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> PWD
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> 257 "/" is current directory.
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> PORT 192,168,113,55,4,16
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> 200 Port command successful
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> MLSD
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/"
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> 226 Successfully transferred "/"
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> CWD Dbd
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd" is current directory.
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> PORT 192,168,113,55,4,17
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> 200 Port command successful
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> MLSD
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd"
+(000004) 12/18/2017 12:08:16 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd"
+(000004) 12/18/2017 12:08:17 PM - student (192.168.113.55)> CWD Test
+(000004) 12/18/2017 12:08:17 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Test" is current directory.
+(000004) 12/18/2017 12:08:17 PM - student (192.168.113.55)> PORT 192,168,113,55,4,18
+(000004) 12/18/2017 12:08:17 PM - student (192.168.113.55)> 200 Port command successful
+(000004) 12/18/2017 12:08:17 PM - student (192.168.113.55)> MLSD
+(000004) 12/18/2017 12:08:17 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Test"
+(000004) 12/18/2017 12:08:17 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Test"
+(000004) 12/18/2017 12:08:18 PM - student (192.168.113.55)> CDUP
+(000004) 12/18/2017 12:08:18 PM - student (192.168.113.55)> 200 CDUP successful. "/Dbd" is current directory.
+(000004) 12/18/2017 12:08:18 PM - student (192.168.113.55)> PWD
+(000004) 12/18/2017 12:08:18 PM - student (192.168.113.55)> 257 "/Dbd" is current directory.
+(000004) 12/18/2017 12:08:19 PM - student (192.168.113.55)> CWD Stud
+(000004) 12/18/2017 12:08:19 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud" is current directory.
+(000004) 12/18/2017 12:08:19 PM - student (192.168.113.55)> PORT 192,168,113,55,4,19
+(000004) 12/18/2017 12:08:19 PM - student (192.168.113.55)> 200 Port command successful
+(000004) 12/18/2017 12:08:19 PM - student (192.168.113.55)> MLSD
+(000004) 12/18/2017 12:08:19 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud"
+(000004) 12/18/2017 12:08:19 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud"
+(000004) 12/18/2017 12:08:20 PM - student (192.168.113.55)> CWD Monday 12-14
+(000004) 12/18/2017 12:08:20 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000004) 12/18/2017 12:08:20 PM - student (192.168.113.55)> PORT 192,168,113,55,4,20
+(000004) 12/18/2017 12:08:20 PM - student (192.168.113.55)> 200 Port command successful
+(000004) 12/18/2017 12:08:20 PM - student (192.168.113.55)> MLSD
+(000004) 12/18/2017 12:08:20 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14"
+(000004) 12/18/2017 12:08:20 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14"
+(000004) 12/18/2017 12:08:20 PM - student (192.168.113.55)> CDUP
+(000004) 12/18/2017 12:08:20 PM - student (192.168.113.55)> 200 CDUP successful. "/Dbd/Stud" is current directory.
+(000004) 12/18/2017 12:08:20 PM - student (192.168.113.55)> PWD
+(000004) 12/18/2017 12:08:20 PM - student (192.168.113.55)> 257 "/Dbd/Stud" is current directory.
+(000004) 12/18/2017 12:08:21 PM - student (192.168.113.55)> CDUP
+(000004) 12/18/2017 12:08:21 PM - student (192.168.113.55)> 200 CDUP successful. "/Dbd" is current directory.
+(000004) 12/18/2017 12:08:21 PM - student (192.168.113.55)> PWD
+(000004) 12/18/2017 12:08:21 PM - student (192.168.113.55)> 257 "/Dbd" is current directory.
+(000004) 12/18/2017 12:08:21 PM - student (192.168.113.55)> CWD Stats
+(000004) 12/18/2017 12:08:21 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stats" is current directory.
+(000004) 12/18/2017 12:08:21 PM - student (192.168.113.55)> PORT 192,168,113,55,4,21
+(000004) 12/18/2017 12:08:21 PM - student (192.168.113.55)> 200 Port command successful
+(000004) 12/18/2017 12:08:21 PM - student (192.168.113.55)> MLSD
+(000004) 12/18/2017 12:08:21 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stats"
+(000004) 12/18/2017 12:08:21 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stats"
+(000004) 12/18/2017 12:08:36 PM - student (192.168.113.55)> TYPE I
+(000004) 12/18/2017 12:08:36 PM - student (192.168.113.55)> 200 Type set to I
+(000004) 12/18/2017 12:08:36 PM - student (192.168.113.55)> PORT 192,168,113,55,4,22
+(000004) 12/18/2017 12:08:36 PM - student (192.168.113.55)> 200 Port command successful
+(000004) 12/18/2017 12:08:36 PM - student (192.168.113.55)> RETR stats.ods
+(000004) 12/18/2017 12:08:36 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stats/stats.ods"
+(000004) 12/18/2017 12:08:36 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stats/stats.ods"
+(000005) 12/18/2017 12:08:42 PM - (not logged in) (192.168.113.56)> Connected, sending welcome message...
+(000005) 12/18/2017 12:08:42 PM - (not logged in) (192.168.113.56)> 220-FileZilla Server version 0.9.43 beta
+(000005) 12/18/2017 12:08:42 PM - (not logged in) (192.168.113.56)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000005) 12/18/2017 12:08:42 PM - (not logged in) (192.168.113.56)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000005) 12/18/2017 12:08:42 PM - (not logged in) (192.168.113.56)> USER student
+(000005) 12/18/2017 12:08:42 PM - (not logged in) (192.168.113.56)> 331 Password required for student
+(000005) 12/18/2017 12:08:42 PM - (not logged in) (192.168.113.56)> PASS *******
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> 230 Logged on
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> SYST
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> 215 UNIX emulated by FileZilla
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> FEAT
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> 211-Features:
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)>  MDTM
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)>  REST STREAM
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)>  SIZE
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)>  MLST type*;size*;modify*;
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)>  MLSD
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)>  UTF8
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)>  CLNT
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)>  MFMT
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> 211 End
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> CLNT Total Commander (UTF-8)
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> 200 Don't care
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> OPTS UTF8 ON
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> 202 UTF8 mode is always enabled. No need to send this command.
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> PWD
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> 257 "/" is current directory.
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> TYPE A
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> 200 Type set to A
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> PORT 192,168,113,56,4,18
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> 200 Port command successful
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> MLSD
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/"
+(000005) 12/18/2017 12:08:42 PM - student (192.168.113.56)> 226 Successfully transferred "/"
+(000005) 12/18/2017 12:08:44 PM - student (192.168.113.56)> CWD Dbd
+(000005) 12/18/2017 12:08:44 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd" is current directory.
+(000005) 12/18/2017 12:08:44 PM - student (192.168.113.56)> PORT 192,168,113,56,4,19
+(000005) 12/18/2017 12:08:44 PM - student (192.168.113.56)> 200 Port command successful
+(000005) 12/18/2017 12:08:44 PM - student (192.168.113.56)> MLSD
+(000005) 12/18/2017 12:08:44 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/Dbd"
+(000005) 12/18/2017 12:08:44 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd"
+(000005) 12/18/2017 12:08:45 PM - student (192.168.113.56)> CWD Stats
+(000005) 12/18/2017 12:08:45 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Stats" is current directory.
+(000005) 12/18/2017 12:08:45 PM - student (192.168.113.56)> PORT 192,168,113,56,4,20
+(000005) 12/18/2017 12:08:45 PM - student (192.168.113.56)> 200 Port command successful
+(000005) 12/18/2017 12:08:45 PM - student (192.168.113.56)> MLSD
+(000005) 12/18/2017 12:08:45 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/Dbd/Stats"
+(000005) 12/18/2017 12:08:45 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd/Stats"
+(000004) 12/18/2017 12:10:37 PM - student (192.168.113.55)> 421 Connection timed out.
+(000004) 12/18/2017 12:10:37 PM - student (192.168.113.55)> disconnected.
+(000005) 12/18/2017 12:10:46 PM - student (192.168.113.56)> 421 Connection timed out.
+(000005) 12/18/2017 12:10:46 PM - student (192.168.113.56)> disconnected.
+(000006) 12/18/2017 12:18:30 PM - (not logged in) (192.168.113.56)> Connected, sending welcome message...
+(000006) 12/18/2017 12:18:30 PM - (not logged in) (192.168.113.56)> 220-FileZilla Server version 0.9.43 beta
+(000006) 12/18/2017 12:18:30 PM - (not logged in) (192.168.113.56)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000006) 12/18/2017 12:18:30 PM - (not logged in) (192.168.113.56)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000006) 12/18/2017 12:18:30 PM - (not logged in) (192.168.113.56)> USER student
+(000006) 12/18/2017 12:18:30 PM - (not logged in) (192.168.113.56)> 331 Password required for student
+(000006) 12/18/2017 12:18:30 PM - (not logged in) (192.168.113.56)> PASS *******
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> 230 Logged on
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> SYST
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> 215 UNIX emulated by FileZilla
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> FEAT
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> 211-Features:
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)>  MDTM
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)>  REST STREAM
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)>  SIZE
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)>  MLST type*;size*;modify*;
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)>  MLSD
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)>  UTF8
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)>  CLNT
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)>  MFMT
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> 211 End
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> CLNT Total Commander (UTF-8)
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> 200 Don't care
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> OPTS UTF8 ON
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> 202 UTF8 mode is always enabled. No need to send this command.
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> CWD /Dbd/Stats
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Stats" is current directory.
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> TYPE I
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> 200 Type set to I
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> PORT 192,168,113,56,4,27
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> 200 Port command successful
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> RETR stats.ods
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> 150 Opening data channel for file download from server of "/Dbd/Stats/stats.ods"
+(000006) 12/18/2017 12:18:30 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd/Stats/stats.ods"
+(000006) 12/18/2017 12:20:31 PM - student (192.168.113.56)> 421 Connection timed out.
+(000006) 12/18/2017 12:20:31 PM - student (192.168.113.56)> disconnected.
+(000007) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.59)> Connected, sending welcome message...
+(000007) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.59)> 220-FileZilla Server version 0.9.43 beta
+(000007) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.59)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000007) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.59)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000007) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.59)> USER student
+(000007) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.59)> 331 Password required for student
+(000007) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.59)> PASS *******
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> 230 Logged on
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> SYST
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> 215 UNIX emulated by FileZilla
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> FEAT
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> 211-Features:
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)>  MDTM
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)>  REST STREAM
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)>  SIZE
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)>  MLST type*;size*;modify*;
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)>  MLSD
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)>  UTF8
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)>  CLNT
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)>  MFMT
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> 211 End
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> CLNT Total Commander (UTF-8)
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> 200 Don't care
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> OPTS UTF8 ON
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> 202 UTF8 mode is always enabled. No need to send this command.
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> PWD
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> 257 "/" is current directory.
+(000008) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.53)> Connected, sending welcome message...
+(000008) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.53)> 220-FileZilla Server version 0.9.43 beta
+(000008) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.53)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000008) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.53)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000008) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.53)> USER student
+(000008) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.53)> 331 Password required for student
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> TYPE A
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> 200 Type set to A
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> PORT 192,168,113,59,4,208
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> 200 Port command successful
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> MLSD
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> 150 Opening data channel for directory listing of "/"
+(000007) 12/18/2017 12:22:33 PM - student (192.168.113.59)> 226 Successfully transferred "/"
+(000009) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.56)> Connected, sending welcome message...
+(000009) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.56)> 220-FileZilla Server version 0.9.43 beta
+(000009) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.56)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000009) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.56)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000009) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.56)> USER student
+(000009) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.56)> 331 Password required for student
+(000009) 12/18/2017 12:22:33 PM - (not logged in) (192.168.113.56)> PASS *******
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> 230 Logged on
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> SYST
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> 215 UNIX emulated by FileZilla
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> FEAT
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> 211-Features:
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)>  MDTM
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)>  REST STREAM
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)>  SIZE
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)>  MLST type*;size*;modify*;
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)>  MLSD
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)>  UTF8
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)>  CLNT
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)>  MFMT
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> 211 End
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> CLNT Total Commander (UTF-8)
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> 200 Don't care
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> OPTS UTF8 ON
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> 202 UTF8 mode is always enabled. No need to send this command.
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> CWD /Dbd/Stats
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Stats" is current directory.
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> CDUP
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> 200 CDUP successful. "/Dbd" is current directory.
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> PWD
+(000009) 12/18/2017 12:22:33 PM - student (192.168.113.56)> 257 "/Dbd" is current directory.
+(000007) 12/18/2017 12:22:35 PM - student (192.168.113.59)> CWD Dbd
+(000007) 12/18/2017 12:22:35 PM - student (192.168.113.59)> 250 CWD successful. "/Dbd" is current directory.
+(000007) 12/18/2017 12:22:35 PM - student (192.168.113.59)> PORT 192,168,113,59,4,209
+(000007) 12/18/2017 12:22:35 PM - student (192.168.113.59)> 200 Port command successful
+(000007) 12/18/2017 12:22:35 PM - student (192.168.113.59)> MLSD
+(000007) 12/18/2017 12:22:35 PM - student (192.168.113.59)> 150 Opening data channel for directory listing of "/Dbd"
+(000007) 12/18/2017 12:22:35 PM - student (192.168.113.59)> 226 Successfully transferred "/Dbd"
+(000009) 12/18/2017 12:22:36 PM - student (192.168.113.56)> CWD Labs
+(000009) 12/18/2017 12:22:36 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Labs" is current directory.
+(000009) 12/18/2017 12:22:36 PM - student (192.168.113.56)> TYPE A
+(000009) 12/18/2017 12:22:36 PM - student (192.168.113.56)> 200 Type set to A
+(000009) 12/18/2017 12:22:36 PM - student (192.168.113.56)> PORT 192,168,113,56,4,46
+(000009) 12/18/2017 12:22:36 PM - student (192.168.113.56)> 200 Port command successful
+(000009) 12/18/2017 12:22:36 PM - student (192.168.113.56)> MLSD
+(000009) 12/18/2017 12:22:36 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/Dbd/Labs"
+(000009) 12/18/2017 12:22:36 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd/Labs"
+(000008) 12/18/2017 12:22:36 PM - (not logged in) (192.168.113.53)> PASS *******
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> 230 Logged on
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> SYST
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> 215 UNIX emulated by FileZilla
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> FEAT
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> 211-Features:
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)>  MDTM
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)>  REST STREAM
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)>  SIZE
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)>  MLST type*;size*;modify*;
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)>  MLSD
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)>  UTF8
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)>  CLNT
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)>  MFMT
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> 211 End
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> CLNT Total Commander (UTF-8)
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> 200 Don't care
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> OPTS UTF8 ON
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> 202 UTF8 mode is always enabled. No need to send this command.
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> CWD /Pbd/Labs/
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> 250 CWD successful. "/Pbd/Labs" is current directory.
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> TYPE A
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> 200 Type set to A
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> PORT 192,168,113,53,5,230
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> 200 Port command successful
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> MLSD
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> 150 Opening data channel for directory listing of "/Pbd/Labs"
+(000008) 12/18/2017 12:22:36 PM - student (192.168.113.53)> 226 Successfully transferred "/Pbd/Labs"
+(000009) 12/18/2017 12:22:37 PM - student (192.168.113.56)> CWD Lab06
+(000009) 12/18/2017 12:22:37 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Labs/Lab06" is current directory.
+(000009) 12/18/2017 12:22:37 PM - student (192.168.113.56)> PORT 192,168,113,56,4,47
+(000009) 12/18/2017 12:22:37 PM - student (192.168.113.56)> 200 Port command successful
+(000009) 12/18/2017 12:22:37 PM - student (192.168.113.56)> MLSD
+(000009) 12/18/2017 12:22:37 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/Dbd/Labs/Lab06"
+(000009) 12/18/2017 12:22:37 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd/Labs/Lab06"
+(000008) 12/18/2017 12:22:38 PM - student (192.168.113.53)> CDUP
+(000008) 12/18/2017 12:22:38 PM - student (192.168.113.53)> 200 CDUP successful. "/Pbd" is current directory.
+(000008) 12/18/2017 12:22:38 PM - student (192.168.113.53)> PWD
+(000008) 12/18/2017 12:22:38 PM - student (192.168.113.53)> 257 "/Pbd" is current directory.
+(000008) 12/18/2017 12:22:38 PM - student (192.168.113.53)> PORT 192,168,113,53,5,231
+(000008) 12/18/2017 12:22:38 PM - student (192.168.113.53)> 200 Port command successful
+(000008) 12/18/2017 12:22:38 PM - student (192.168.113.53)> MLSD
+(000008) 12/18/2017 12:22:38 PM - student (192.168.113.53)> 150 Opening data channel for directory listing of "/Pbd"
+(000008) 12/18/2017 12:22:38 PM - student (192.168.113.53)> 226 Successfully transferred "/Pbd"
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> CWD Stud
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> 250 CWD successful. "/Dbd/Stud" is current directory.
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> PORT 192,168,113,59,4,210
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> 200 Port command successful
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> MLSD
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> 150 Opening data channel for directory listing of "/Dbd/Stud"
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> 226 Successfully transferred "/Dbd/Stud"
+(000010) 12/18/2017 12:22:39 PM - (not logged in) (192.168.113.63)> Connected, sending welcome message...
+(000010) 12/18/2017 12:22:39 PM - (not logged in) (192.168.113.63)> 220-FileZilla Server version 0.9.43 beta
+(000010) 12/18/2017 12:22:39 PM - (not logged in) (192.168.113.63)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000010) 12/18/2017 12:22:39 PM - (not logged in) (192.168.113.63)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000010) 12/18/2017 12:22:39 PM - (not logged in) (192.168.113.63)> USER student
+(000010) 12/18/2017 12:22:39 PM - (not logged in) (192.168.113.63)> 331 Password required for student
+(000010) 12/18/2017 12:22:39 PM - (not logged in) (192.168.113.63)> PASS *******
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> 230 Logged on
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> CWD Monday 12-14
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> SYST
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> 215 UNIX emulated by FileZilla
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> FEAT
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> 211-Features:
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)>  MDTM
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)>  REST STREAM
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)>  SIZE
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)>  MLST type*;size*;modify*;
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)>  MLSD
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)>  UTF8
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)>  CLNT
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)>  MFMT
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> 211 End
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> PORT 192,168,113,59,4,211
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> 200 Port command successful
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> MLSD
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14"
+(000007) 12/18/2017 12:22:39 PM - student (192.168.113.59)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14"
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> CLNT Total Commander (UTF-8)
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> 200 Don't care
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> OPTS UTF8 ON
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> 202 UTF8 mode is always enabled. No need to send this command.
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> PWD
+(000010) 12/18/2017 12:22:39 PM - student (192.168.113.63)> 257 "/" is current directory.
+(000010) 12/18/2017 12:22:40 PM - student (192.168.113.63)> TYPE A
+(000010) 12/18/2017 12:22:40 PM - student (192.168.113.63)> 200 Type set to A
+(000010) 12/18/2017 12:22:40 PM - student (192.168.113.63)> PORT 192,168,113,63,4,82
+(000010) 12/18/2017 12:22:40 PM - student (192.168.113.63)> 200 Port command successful
+(000010) 12/18/2017 12:22:40 PM - student (192.168.113.63)> MLSD
+(000010) 12/18/2017 12:22:40 PM - student (192.168.113.63)> 150 Opening data channel for directory listing of "/"
+(000010) 12/18/2017 12:22:40 PM - student (192.168.113.63)> 226 Successfully transferred "/"
+(000008) 12/18/2017 12:22:40 PM - student (192.168.113.53)> CDUP
+(000008) 12/18/2017 12:22:40 PM - student (192.168.113.53)> 200 CDUP successful. "/" is current directory.
+(000008) 12/18/2017 12:22:40 PM - student (192.168.113.53)> PWD
+(000008) 12/18/2017 12:22:40 PM - student (192.168.113.53)> 257 "/" is current directory.
+(000008) 12/18/2017 12:22:40 PM - student (192.168.113.53)> PORT 192,168,113,53,5,232
+(000008) 12/18/2017 12:22:40 PM - student (192.168.113.53)> 200 Port command successful
+(000008) 12/18/2017 12:22:40 PM - student (192.168.113.53)> MLSD
+(000008) 12/18/2017 12:22:40 PM - student (192.168.113.53)> 150 Opening data channel for directory listing of "/"
+(000008) 12/18/2017 12:22:40 PM - student (192.168.113.53)> 226 Successfully transferred "/"
+(000007) 12/18/2017 12:22:40 PM - student (192.168.113.59)> CDUP
+(000007) 12/18/2017 12:22:40 PM - student (192.168.113.59)> 200 CDUP successful. "/Dbd/Stud" is current directory.
+(000007) 12/18/2017 12:22:40 PM - student (192.168.113.59)> PWD
+(000007) 12/18/2017 12:22:40 PM - student (192.168.113.59)> 257 "/Dbd/Stud" is current directory.
+(000007) 12/18/2017 12:22:41 PM - student (192.168.113.59)> CDUP
+(000007) 12/18/2017 12:22:41 PM - student (192.168.113.59)> 200 CDUP successful. "/Dbd" is current directory.
+(000007) 12/18/2017 12:22:41 PM - student (192.168.113.59)> PWD
+(000007) 12/18/2017 12:22:41 PM - student (192.168.113.59)> 257 "/Dbd" is current directory.
+(000007) 12/18/2017 12:22:42 PM - student (192.168.113.59)> CWD Stud
+(000007) 12/18/2017 12:22:42 PM - student (192.168.113.59)> 250 CWD successful. "/Dbd/Stud" is current directory.
+(000008) 12/18/2017 12:22:42 PM - student (192.168.113.53)> CWD Dbd
+(000008) 12/18/2017 12:22:42 PM - student (192.168.113.53)> 250 CWD successful. "/Dbd" is current directory.
+(000008) 12/18/2017 12:22:42 PM - student (192.168.113.53)> PORT 192,168,113,53,5,233
+(000008) 12/18/2017 12:22:42 PM - student (192.168.113.53)> 200 Port command successful
+(000008) 12/18/2017 12:22:42 PM - student (192.168.113.53)> MLSD
+(000008) 12/18/2017 12:22:42 PM - student (192.168.113.53)> 150 Opening data channel for directory listing of "/Dbd"
+(000008) 12/18/2017 12:22:42 PM - student (192.168.113.53)> 226 Successfully transferred "/Dbd"
+(000007) 12/18/2017 12:22:42 PM - student (192.168.113.59)> CWD Monday 12-14
+(000007) 12/18/2017 12:22:42 PM - student (192.168.113.59)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000008) 12/18/2017 12:22:44 PM - student (192.168.113.53)> CWD Test
+(000008) 12/18/2017 12:22:44 PM - student (192.168.113.53)> 250 CWD successful. "/Dbd/Test" is current directory.
+(000008) 12/18/2017 12:22:44 PM - student (192.168.113.53)> PORT 192,168,113,53,5,234
+(000008) 12/18/2017 12:22:44 PM - student (192.168.113.53)> 200 Port command successful
+(000008) 12/18/2017 12:22:44 PM - student (192.168.113.53)> MLSD
+(000008) 12/18/2017 12:22:44 PM - student (192.168.113.53)> 150 Opening data channel for directory listing of "/Dbd/Test"
+(000008) 12/18/2017 12:22:44 PM - student (192.168.113.53)> 226 Successfully transferred "/Dbd/Test"
+(000007) 12/18/2017 12:22:44 PM - student (192.168.113.59)> CWD MARINESCU Alexandru
+(000007) 12/18/2017 12:22:44 PM - student (192.168.113.59)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru" is current directory.
+(000007) 12/18/2017 12:22:44 PM - student (192.168.113.59)> PORT 192,168,113,59,4,212
+(000007) 12/18/2017 12:22:44 PM - student (192.168.113.59)> 200 Port command successful
+(000007) 12/18/2017 12:22:44 PM - student (192.168.113.59)> MLSD
+(000007) 12/18/2017 12:22:44 PM - student (192.168.113.59)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru"
+(000007) 12/18/2017 12:22:44 PM - student (192.168.113.59)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru"
+(000008) 12/18/2017 12:22:44 PM - student (192.168.113.53)> CDUP
+(000008) 12/18/2017 12:22:44 PM - student (192.168.113.53)> 200 CDUP successful. "/Dbd" is current directory.
+(000008) 12/18/2017 12:22:44 PM - student (192.168.113.53)> PWD
+(000008) 12/18/2017 12:22:44 PM - student (192.168.113.53)> 257 "/Dbd" is current directory.
+(000008) 12/18/2017 12:22:46 PM - student (192.168.113.53)> CWD Labs
+(000008) 12/18/2017 12:22:46 PM - student (192.168.113.53)> 250 CWD successful. "/Dbd/Labs" is current directory.
+(000008) 12/18/2017 12:22:46 PM - student (192.168.113.53)> PORT 192,168,113,53,5,235
+(000008) 12/18/2017 12:22:46 PM - student (192.168.113.53)> 200 Port command successful
+(000008) 12/18/2017 12:22:46 PM - student (192.168.113.53)> MLSD
+(000008) 12/18/2017 12:22:46 PM - student (192.168.113.53)> 150 Opening data channel for directory listing of "/Dbd/Labs"
+(000008) 12/18/2017 12:22:46 PM - student (192.168.113.53)> 226 Successfully transferred "/Dbd/Labs"
+(000008) 12/18/2017 12:22:48 PM - student (192.168.113.53)> CWD Lab06
+(000008) 12/18/2017 12:22:48 PM - student (192.168.113.53)> 250 CWD successful. "/Dbd/Labs/Lab06" is current directory.
+(000008) 12/18/2017 12:22:48 PM - student (192.168.113.53)> PORT 192,168,113,53,5,236
+(000008) 12/18/2017 12:22:48 PM - student (192.168.113.53)> 200 Port command successful
+(000008) 12/18/2017 12:22:48 PM - student (192.168.113.53)> MLSD
+(000008) 12/18/2017 12:22:48 PM - student (192.168.113.53)> 150 Opening data channel for directory listing of "/Dbd/Labs/Lab06"
+(000008) 12/18/2017 12:22:48 PM - student (192.168.113.53)> 226 Successfully transferred "/Dbd/Labs/Lab06"
+(000007) 12/18/2017 12:22:51 PM - student (192.168.113.59)> TYPE I
+(000007) 12/18/2017 12:22:51 PM - student (192.168.113.59)> 200 Type set to I
+(000007) 12/18/2017 12:22:51 PM - student (192.168.113.59)> PORT 192,168,113,59,4,213
+(000007) 12/18/2017 12:22:51 PM - student (192.168.113.59)> 200 Port command successful
+(000007) 12/18/2017 12:22:51 PM - student (192.168.113.59)> RETR week11.txt
+(000007) 12/18/2017 12:22:51 PM - student (192.168.113.59)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/week11.txt"
+(000007) 12/18/2017 12:22:51 PM - student (192.168.113.59)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/MARINESCU Alexandru/week11.txt"
+(000011) 12/18/2017 12:23:00 PM - (not logged in) (192.168.113.63)> Connected, sending welcome message...
+(000011) 12/18/2017 12:23:00 PM - (not logged in) (192.168.113.63)> 220-FileZilla Server version 0.9.43 beta
+(000011) 12/18/2017 12:23:00 PM - (not logged in) (192.168.113.63)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000011) 12/18/2017 12:23:00 PM - (not logged in) (192.168.113.63)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000011) 12/18/2017 12:23:00 PM - (not logged in) (192.168.113.63)> USER student
+(000011) 12/18/2017 12:23:00 PM - (not logged in) (192.168.113.63)> 331 Password required for student
+(000011) 12/18/2017 12:23:00 PM - (not logged in) (192.168.113.63)> PASS *******
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> 230 Logged on
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> SYST
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> 215 UNIX emulated by FileZilla
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> FEAT
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> 211-Features:
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)>  MDTM
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)>  REST STREAM
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)>  SIZE
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)>  MLST type*;size*;modify*;
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)>  MLSD
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)>  UTF8
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)>  CLNT
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)>  MFMT
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> 211 End
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> CLNT Total Commander (UTF-8)
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> 200 Don't care
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> OPTS UTF8 ON
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> 202 UTF8 mode is always enabled. No need to send this command.
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> CWD /
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> 250 CWD successful. "/" is current directory.
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> TYPE A
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> 200 Type set to A
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> PORT 192,168,113,63,4,84
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> 200 Port command successful
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> MLSD
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> 150 Opening data channel for directory listing of "/"
+(000011) 12/18/2017 12:23:00 PM - student (192.168.113.63)> 226 Successfully transferred "/"
+(000011) 12/18/2017 12:23:02 PM - student (192.168.113.63)> CWD Dbd
+(000011) 12/18/2017 12:23:02 PM - student (192.168.113.63)> 250 CWD successful. "/Dbd" is current directory.
+(000011) 12/18/2017 12:23:02 PM - student (192.168.113.63)> PORT 192,168,113,63,4,85
+(000011) 12/18/2017 12:23:02 PM - student (192.168.113.63)> 200 Port command successful
+(000011) 12/18/2017 12:23:02 PM - student (192.168.113.63)> MLSD
+(000011) 12/18/2017 12:23:02 PM - student (192.168.113.63)> 150 Opening data channel for directory listing of "/Dbd"
+(000011) 12/18/2017 12:23:02 PM - student (192.168.113.63)> 226 Successfully transferred "/Dbd"
+(000011) 12/18/2017 12:23:04 PM - student (192.168.113.63)> CWD Labs
+(000011) 12/18/2017 12:23:04 PM - student (192.168.113.63)> 250 CWD successful. "/Dbd/Labs" is current directory.
+(000011) 12/18/2017 12:23:04 PM - student (192.168.113.63)> PORT 192,168,113,63,4,86
+(000011) 12/18/2017 12:23:04 PM - student (192.168.113.63)> 200 Port command successful
+(000011) 12/18/2017 12:23:04 PM - student (192.168.113.63)> MLSD
+(000011) 12/18/2017 12:23:04 PM - student (192.168.113.63)> 150 Opening data channel for directory listing of "/Dbd/Labs"
+(000011) 12/18/2017 12:23:04 PM - student (192.168.113.63)> 226 Successfully transferred "/Dbd/Labs"
+(000010) 12/18/2017 12:23:11 PM - student (192.168.113.63)> CWD Pbd
+(000010) 12/18/2017 12:23:11 PM - student (192.168.113.63)> 250 CWD successful. "/Pbd" is current directory.
+(000010) 12/18/2017 12:23:11 PM - student (192.168.113.63)> PORT 192,168,113,63,4,87
+(000010) 12/18/2017 12:23:11 PM - student (192.168.113.63)> 200 Port command successful
+(000010) 12/18/2017 12:23:11 PM - student (192.168.113.63)> MLSD
+(000010) 12/18/2017 12:23:11 PM - student (192.168.113.63)> 150 Opening data channel for directory listing of "/Pbd"
+(000010) 12/18/2017 12:23:11 PM - student (192.168.113.63)> 226 Successfully transferred "/Pbd"
+(000010) 12/18/2017 12:23:13 PM - student (192.168.113.63)> CDUP
+(000010) 12/18/2017 12:23:13 PM - student (192.168.113.63)> 200 CDUP successful. "/" is current directory.
+(000010) 12/18/2017 12:23:13 PM - student (192.168.113.63)> PWD
+(000010) 12/18/2017 12:23:13 PM - student (192.168.113.63)> 257 "/" is current directory.
+(000010) 12/18/2017 12:23:13 PM - student (192.168.113.63)> CWD Dbd
+(000010) 12/18/2017 12:23:13 PM - student (192.168.113.63)> 250 CWD successful. "/Dbd" is current directory.
+(000010) 12/18/2017 12:23:13 PM - student (192.168.113.63)> PORT 192,168,113,63,4,88
+(000010) 12/18/2017 12:23:13 PM - student (192.168.113.63)> 200 Port command successful
+(000010) 12/18/2017 12:23:13 PM - student (192.168.113.63)> MLSD
+(000010) 12/18/2017 12:23:13 PM - student (192.168.113.63)> 150 Opening data channel for directory listing of "/Dbd"
+(000010) 12/18/2017 12:23:13 PM - student (192.168.113.63)> 226 Successfully transferred "/Dbd"
+(000010) 12/18/2017 12:23:14 PM - student (192.168.113.63)> CWD Test
+(000010) 12/18/2017 12:23:14 PM - student (192.168.113.63)> 250 CWD successful. "/Dbd/Test" is current directory.
+(000010) 12/18/2017 12:23:14 PM - student (192.168.113.63)> PORT 192,168,113,63,4,89
+(000010) 12/18/2017 12:23:14 PM - student (192.168.113.63)> 200 Port command successful
+(000010) 12/18/2017 12:23:14 PM - student (192.168.113.63)> MLSD
+(000010) 12/18/2017 12:23:14 PM - student (192.168.113.63)> 150 Opening data channel for directory listing of "/Dbd/Test"
+(000010) 12/18/2017 12:23:14 PM - student (192.168.113.63)> 226 Successfully transferred "/Dbd/Test"
+(000010) 12/18/2017 12:23:16 PM - student (192.168.113.63)> CDUP
+(000010) 12/18/2017 12:23:16 PM - student (192.168.113.63)> 200 CDUP successful. "/Dbd" is current directory.
+(000010) 12/18/2017 12:23:16 PM - student (192.168.113.63)> PWD
+(000010) 12/18/2017 12:23:16 PM - student (192.168.113.63)> 257 "/Dbd" is current directory.
+(000010) 12/18/2017 12:23:18 PM - student (192.168.113.63)> CWD Stats
+(000010) 12/18/2017 12:23:18 PM - student (192.168.113.63)> 250 CWD successful. "/Dbd/Stats" is current directory.
+(000010) 12/18/2017 12:23:18 PM - student (192.168.113.63)> PORT 192,168,113,63,4,90
+(000010) 12/18/2017 12:23:18 PM - student (192.168.113.63)> 200 Port command successful
+(000010) 12/18/2017 12:23:18 PM - student (192.168.113.63)> MLSD
+(000010) 12/18/2017 12:23:18 PM - student (192.168.113.63)> 150 Opening data channel for directory listing of "/Dbd/Stats"
+(000010) 12/18/2017 12:23:18 PM - student (192.168.113.63)> 226 Successfully transferred "/Dbd/Stats"
+(000009) 12/18/2017 12:23:27 PM - student (192.168.113.56)> MKD week13
+(000009) 12/18/2017 12:23:27 PM - student (192.168.113.56)> 257 "/Dbd/Labs/Lab06/week13" created successfully
+(000009) 12/18/2017 12:23:27 PM - student (192.168.113.56)> PORT 192,168,113,56,4,48
+(000009) 12/18/2017 12:23:27 PM - student (192.168.113.56)> 200 Port command successful
+(000009) 12/18/2017 12:23:27 PM - student (192.168.113.56)> MLSD
+(000009) 12/18/2017 12:23:27 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/Dbd/Labs/Lab06"
+(000009) 12/18/2017 12:23:27 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd/Labs/Lab06"
+(000008) 12/18/2017 12:24:49 PM - student (192.168.113.53)> 421 Connection timed out.
+(000008) 12/18/2017 12:24:49 PM - student (192.168.113.53)> disconnected.
+(000007) 12/18/2017 12:24:51 PM - student (192.168.113.59)> 421 Connection timed out.
+(000007) 12/18/2017 12:24:51 PM - student (192.168.113.59)> disconnected.
+(000011) 12/18/2017 12:25:05 PM - student (192.168.113.63)> 421 Connection timed out.
+(000011) 12/18/2017 12:25:05 PM - student (192.168.113.63)> disconnected.
+(000010) 12/18/2017 12:25:19 PM - student (192.168.113.63)> 421 Connection timed out.
+(000010) 12/18/2017 12:25:19 PM - student (192.168.113.63)> disconnected.
+(000009) 12/18/2017 12:25:28 PM - student (192.168.113.56)> 421 Connection timed out.
+(000009) 12/18/2017 12:25:28 PM - student (192.168.113.56)> disconnected.
+(000012) 12/18/2017 12:27:18 PM - (not logged in) (192.168.113.56)> Connected, sending welcome message...
+(000012) 12/18/2017 12:27:18 PM - (not logged in) (192.168.113.56)> 220-FileZilla Server version 0.9.43 beta
+(000012) 12/18/2017 12:27:18 PM - (not logged in) (192.168.113.56)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000012) 12/18/2017 12:27:18 PM - (not logged in) (192.168.113.56)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000012) 12/18/2017 12:27:18 PM - (not logged in) (192.168.113.56)> USER student
+(000012) 12/18/2017 12:27:18 PM - (not logged in) (192.168.113.56)> 331 Password required for student
+(000012) 12/18/2017 12:27:18 PM - (not logged in) (192.168.113.56)> PASS *******
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)> 230 Logged on
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)> SYST
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)> 215 UNIX emulated by FileZilla
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)> FEAT
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)> 211-Features:
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)>  MDTM
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)>  REST STREAM
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)>  SIZE
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)>  MLST type*;size*;modify*;
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)>  MLSD
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)>  UTF8
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)>  CLNT
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)>  MFMT
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)> 211 End
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)> CLNT Total Commander (UTF-8)
+(000012) 12/18/2017 12:27:18 PM - student (192.168.113.56)> 200 Don't care
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> OPTS UTF8 ON
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> 202 UTF8 mode is always enabled. No need to send this command.
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> CWD /Dbd/Labs/Lab06
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Labs/Lab06" is current directory.
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> RMD week13
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> 250 Directory deleted successfully
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> TYPE A
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> 200 Type set to A
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> PORT 192,168,113,56,4,50
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> 200 Port command successful
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> MLSD
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/Dbd/Labs/Lab06"
+(000012) 12/18/2017 12:27:19 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd/Labs/Lab06"
+(000012) 12/18/2017 12:27:20 PM - student (192.168.113.56)> CDUP
+(000012) 12/18/2017 12:27:20 PM - student (192.168.113.56)> 200 CDUP successful. "/Dbd/Labs" is current directory.
+(000012) 12/18/2017 12:27:20 PM - student (192.168.113.56)> PWD
+(000012) 12/18/2017 12:27:20 PM - student (192.168.113.56)> 257 "/Dbd/Labs" is current directory.
+(000012) 12/18/2017 12:27:21 PM - student (192.168.113.56)> CWD Lab06
+(000012) 12/18/2017 12:27:21 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Labs/Lab06" is current directory.
+(000012) 12/18/2017 12:29:18 PM - student (192.168.113.56)> CDUP
+(000012) 12/18/2017 12:29:18 PM - student (192.168.113.56)> 200 CDUP successful. "/Dbd/Labs" is current directory.
+(000012) 12/18/2017 12:29:18 PM - student (192.168.113.56)> PWD
+(000012) 12/18/2017 12:29:18 PM - student (192.168.113.56)> 257 "/Dbd/Labs" is current directory.
+(000012) 12/18/2017 12:29:18 PM - student (192.168.113.56)> CWD Lab05
+(000012) 12/18/2017 12:29:18 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Labs/Lab05" is current directory.
+(000012) 12/18/2017 12:29:18 PM - student (192.168.113.56)> PORT 192,168,113,56,4,51
+(000012) 12/18/2017 12:29:18 PM - student (192.168.113.56)> 200 Port command successful
+(000012) 12/18/2017 12:29:18 PM - student (192.168.113.56)> MLSD
+(000012) 12/18/2017 12:29:18 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/Dbd/Labs/Lab05"
+(000012) 12/18/2017 12:29:18 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd/Labs/Lab05"
+(000012) 12/18/2017 12:31:19 PM - student (192.168.113.56)> 421 Connection timed out.
+(000012) 12/18/2017 12:31:19 PM - student (192.168.113.56)> disconnected.
+(000013) 12/18/2017 12:37:16 PM - (not logged in) (192.168.113.56)> Connected, sending welcome message...
+(000013) 12/18/2017 12:37:16 PM - (not logged in) (192.168.113.56)> 220-FileZilla Server version 0.9.43 beta
+(000013) 12/18/2017 12:37:16 PM - (not logged in) (192.168.113.56)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000013) 12/18/2017 12:37:16 PM - (not logged in) (192.168.113.56)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000013) 12/18/2017 12:37:16 PM - (not logged in) (192.168.113.56)> USER student
+(000013) 12/18/2017 12:37:16 PM - (not logged in) (192.168.113.56)> 331 Password required for student
+(000013) 12/18/2017 12:37:16 PM - (not logged in) (192.168.113.56)> PASS *******
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> 230 Logged on
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> SYST
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> 215 UNIX emulated by FileZilla
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> FEAT
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> 211-Features:
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)>  MDTM
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)>  REST STREAM
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)>  SIZE
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)>  MLST type*;size*;modify*;
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)>  MLSD
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)>  UTF8
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)>  CLNT
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)>  MFMT
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> 211 End
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> CLNT Total Commander (UTF-8)
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> 200 Don't care
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> OPTS UTF8 ON
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> 202 UTF8 mode is always enabled. No need to send this command.
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> CWD /Dbd/Labs/Lab05
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Labs/Lab05" is current directory.
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> CDUP
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> 200 CDUP successful. "/Dbd/Labs" is current directory.
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> PWD
+(000013) 12/18/2017 12:37:16 PM - student (192.168.113.56)> 257 "/Dbd/Labs" is current directory.
+(000013) 12/18/2017 12:37:18 PM - student (192.168.113.56)> CDUP
+(000013) 12/18/2017 12:37:18 PM - student (192.168.113.56)> 200 CDUP successful. "/Dbd" is current directory.
+(000013) 12/18/2017 12:37:18 PM - student (192.168.113.56)> PWD
+(000013) 12/18/2017 12:37:18 PM - student (192.168.113.56)> 257 "/Dbd" is current directory.
+(000013) 12/18/2017 12:37:21 PM - student (192.168.113.56)> CWD Stud
+(000013) 12/18/2017 12:37:21 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Stud" is current directory.
+(000013) 12/18/2017 12:37:21 PM - student (192.168.113.56)> TYPE A
+(000013) 12/18/2017 12:37:21 PM - student (192.168.113.56)> 200 Type set to A
+(000013) 12/18/2017 12:37:21 PM - student (192.168.113.56)> PORT 192,168,113,56,4,53
+(000013) 12/18/2017 12:37:21 PM - student (192.168.113.56)> 200 Port command successful
+(000013) 12/18/2017 12:37:21 PM - student (192.168.113.56)> MLSD
+(000013) 12/18/2017 12:37:21 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/Dbd/Stud"
+(000013) 12/18/2017 12:37:21 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd/Stud"
+(000013) 12/18/2017 12:37:22 PM - student (192.168.113.56)> CWD Monday 12-14
+(000013) 12/18/2017 12:37:22 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000013) 12/18/2017 12:37:22 PM - student (192.168.113.56)> PORT 192,168,113,56,4,54
+(000013) 12/18/2017 12:37:22 PM - student (192.168.113.56)> 200 Port command successful
+(000013) 12/18/2017 12:37:22 PM - student (192.168.113.56)> MLSD
+(000013) 12/18/2017 12:37:22 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14"
+(000013) 12/18/2017 12:37:22 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14"
+(000013) 12/18/2017 12:37:23 PM - student (192.168.113.56)> CWD Ionut LUNGU
+(000013) 12/18/2017 12:37:23 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000013) 12/18/2017 12:37:23 PM - student (192.168.113.56)> PORT 192,168,113,56,4,55
+(000013) 12/18/2017 12:37:23 PM - student (192.168.113.56)> 200 Port command successful
+(000013) 12/18/2017 12:37:23 PM - student (192.168.113.56)> MLSD
+(000013) 12/18/2017 12:37:23 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU"
+(000013) 12/18/2017 12:37:23 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU"
+(000013) 12/18/2017 12:38:15 PM - student (192.168.113.56)> CDUP
+(000013) 12/18/2017 12:38:15 PM - student (192.168.113.56)> 200 CDUP successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000013) 12/18/2017 12:38:15 PM - student (192.168.113.56)> PWD
+(000013) 12/18/2017 12:38:15 PM - student (192.168.113.56)> 257 "/Dbd/Stud/Monday 12-14" is current directory.
+(000013) 12/18/2017 12:38:43 PM - student (192.168.113.56)> CWD Ionut LUNGU
+(000013) 12/18/2017 12:38:43 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000014) 12/18/2017 12:40:35 PM - (not logged in) (192.168.113.55)> Connected, sending welcome message...
+(000014) 12/18/2017 12:40:35 PM - (not logged in) (192.168.113.55)> 220-FileZilla Server version 0.9.43 beta
+(000014) 12/18/2017 12:40:35 PM - (not logged in) (192.168.113.55)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000014) 12/18/2017 12:40:35 PM - (not logged in) (192.168.113.55)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000014) 12/18/2017 12:40:35 PM - (not logged in) (192.168.113.55)> USER student
+(000014) 12/18/2017 12:40:35 PM - (not logged in) (192.168.113.55)> 331 Password required for student
+(000014) 12/18/2017 12:40:35 PM - (not logged in) (192.168.113.55)> PASS *******
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> 230 Logged on
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> SYST
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> 215 UNIX emulated by FileZilla
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> FEAT
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> 211-Features:
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)>  MDTM
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)>  REST STREAM
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)>  SIZE
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)>  MLST type*;size*;modify*;
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)>  MLSD
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)>  UTF8
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)>  CLNT
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)>  MFMT
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> 211 End
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> CLNT Total Commander (UTF-8)
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> 200 Don't care
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> OPTS UTF8 ON
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> 202 UTF8 mode is always enabled. No need to send this command.
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> CWD /Dbd/Stats
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stats" is current directory.
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> CWD /
+(000014) 12/18/2017 12:40:35 PM - student (192.168.113.55)> 250 CWD successful. "/" is current directory.
+(000014) 12/18/2017 12:40:36 PM - student (192.168.113.55)> CWD Dbd
+(000014) 12/18/2017 12:40:36 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd" is current directory.
+(000014) 12/18/2017 12:40:38 PM - student (192.168.113.55)> CWD Stud
+(000014) 12/18/2017 12:40:38 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud" is current directory.
+(000014) 12/18/2017 12:40:38 PM - student (192.168.113.55)> CWD Monday 12-14
+(000014) 12/18/2017 12:40:38 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000014) 12/18/2017 12:40:41 PM - student (192.168.113.55)> CWD Ionut LUNGU
+(000014) 12/18/2017 12:40:41 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000014) 12/18/2017 12:40:41 PM - student (192.168.113.55)> TYPE A
+(000014) 12/18/2017 12:40:41 PM - student (192.168.113.55)> 200 Type set to A
+(000014) 12/18/2017 12:40:41 PM - student (192.168.113.55)> PORT 192,168,113,55,5,16
+(000014) 12/18/2017 12:40:41 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:41 PM - student (192.168.113.55)> MLSD
+(000014) 12/18/2017 12:40:41 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU"
+(000014) 12/18/2017 12:40:41 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU"
+(000014) 12/18/2017 12:40:42 PM - student (192.168.113.55)> CDUP
+(000014) 12/18/2017 12:40:42 PM - student (192.168.113.55)> 200 CDUP successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000014) 12/18/2017 12:40:42 PM - student (192.168.113.55)> PWD
+(000014) 12/18/2017 12:40:42 PM - student (192.168.113.55)> 257 "/Dbd/Stud/Monday 12-14" is current directory.
+(000013) 12/18/2017 12:40:43 PM - student (192.168.113.56)> 421 Connection timed out.
+(000013) 12/18/2017 12:40:43 PM - student (192.168.113.56)> disconnected.
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> CWD Ionut LUNGU
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> TYPE I
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Type set to I
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,17
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> RETR lab2.txt
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab2.txt"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab2.txt"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,18
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> RETR w8f.sql
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8f.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8f.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,19
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> RETR w8ff.sql
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8ff.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8ff.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,20
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> RETR week10.sql
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/week10.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/week10.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> CWD lab3
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab3" is current directory.
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> TYPE A
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Type set to A
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,21
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> MLSD
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab3"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab3"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> TYPE I
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Type set to I
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,22
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> RETR exportallorders.sql
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab3/exportallorders.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab3/exportallorders.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,23
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> RETR exportitems.sql
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab3/exportitems.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab3/exportitems.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,24
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> RETR exportorders.sql
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab3/exportorders.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab3/exportorders.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,25
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> RETR exportusers.sql
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab3/exportusers.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab3/exportusers.sql"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> CWD /Dbd/Stud/Monday 12-14/Ionut LUNGU
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> CWD lab4
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab4" is current directory.
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> TYPE A
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Type set to A
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,26
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> MLSD
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab4"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab4"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> TYPE I
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Type set to I
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,27
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> RETR todo.txt
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab4/todo.txt"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab4/todo.txt"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> CWD /Dbd/Stud/Monday 12-14/Ionut LUNGU
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> CWD LAB5
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5" is current directory.
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> TYPE A
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Type set to A
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,28
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> MLSD
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5"
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> TYPE I
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Type set to I
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> PORT 192,168,113,55,5,29
+(000014) 12/18/2017 12:40:44 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> RETR neitem.sql
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5/neitem.sql"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5/neitem.sql"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> CWD new folder
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5/new folder" is current directory.
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> TYPE A
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Type set to A
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> PORT 192,168,113,55,5,30
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> MLSD
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5/new folder"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5/new folder"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> TYPE I
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Type set to I
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> PORT 192,168,113,55,5,31
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> RETR exp1ort.sql
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5/new folder/exp1ort.sql"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5/new folder/exp1ort.sql"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> PORT 192,168,113,55,5,32
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> RETR export.sql
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5/new folder/export.sql"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5/new folder/export.sql"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> PORT 192,168,113,55,5,33
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> RETR neitem.sql
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5/new folder/neitem.sql"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5/new folder/neitem.sql"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> CWD /Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU/LAB5" is current directory.
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> CWD /Dbd/Stud/Monday 12-14/Ionut LUNGU
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> CWD lab6
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab6" is current directory.
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> TYPE A
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Type set to A
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> PORT 192,168,113,55,5,34
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> MLSD
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab6"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab6"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> TYPE I
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Type set to I
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> PORT 192,168,113,55,5,35
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> RETR lab6.txt
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab6/lab6.txt"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/lab6/lab6.txt"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> CWD /Dbd/Stud/Monday 12-14/Ionut LUNGU
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> CWD w8
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8" is current directory.
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> TYPE A
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Type set to A
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> PORT 192,168,113,55,5,36
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> MLSD
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> TYPE I
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Type set to I
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> PORT 192,168,113,55,5,37
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> RETR fsdsf.txt
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8/fsdsf.txt"
+(000014) 12/18/2017 12:40:45 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8/fsdsf.txt"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> PORT 192,168,113,55,5,38
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> RETR w8f.sql
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8/w8f.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8/w8f.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> PORT 192,168,113,55,5,39
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> RETR w8ff.sql
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8/w8ff.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/w8/w8ff.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> CWD /Dbd/Stud/Monday 12-14/Ionut LUNGU
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> CWD week10
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU/week10" is current directory.
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> TYPE A
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Type set to A
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> PORT 192,168,113,55,5,40
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> MLSD
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/week10"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/week10"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> TYPE I
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Type set to I
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> PORT 192,168,113,55,5,41
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> RETR week10.sql
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/week10/week10.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/week10/week10.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> CWD /Dbd/Stud/Monday 12-14/Ionut LUNGU
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> CWD Week11
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week11" is current directory.
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> TYPE A
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Type set to A
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> PORT 192,168,113,55,5,42
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> MLSD
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week11"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week11"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> TYPE I
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Type set to I
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> PORT 192,168,113,55,5,43
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> RETR files.sql
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week11/files.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week11/files.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> PORT 192,168,113,55,5,44
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> RETR folders.sql
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week11/folders.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week11/folders.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> PORT 192,168,113,55,5,45
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> RETR mkdir.sql
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week11/mkdir.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week11/mkdir.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> PORT 192,168,113,55,5,46
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> RETR w11.sql
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week11/w11.sql"
+(000014) 12/18/2017 12:40:46 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week11/w11.sql"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> CWD /Dbd/Stud/Monday 12-14/Ionut LUNGU
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> CWD Week12
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12" is current directory.
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> TYPE A
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 200 Type set to A
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> PORT 192,168,113,55,5,47
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> MLSD
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> TYPE I
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 200 Type set to I
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> PORT 192,168,113,55,5,48
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> RETR files.sql
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12/files.sql"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12/files.sql"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> PORT 192,168,113,55,5,49
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> RETR folders.sql
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12/folders.sql"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12/folders.sql"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> PORT 192,168,113,55,5,50
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> RETR mkdir.sql
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12/mkdir.sql"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12/mkdir.sql"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> PORT 192,168,113,55,5,51
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> RETR sequence1.sql
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12/sequence1.sql"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12/sequence1.sql"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> PORT 192,168,113,55,5,52
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 200 Port command successful
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> RETR trg.sql
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 150 Opening data channel for file download from server of "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12/trg.sql"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU/Week12/trg.sql"
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> CWD /Dbd/Stud/Monday 12-14/Ionut LUNGU
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> CWD /Dbd/Stud/Monday 12-14
+(000014) 12/18/2017 12:40:47 PM - student (192.168.113.55)> 250 CWD successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000014) 12/18/2017 12:40:50 PM - student (192.168.113.55)> QUIT
+(000014) 12/18/2017 12:40:50 PM - student (192.168.113.55)> 221 Goodbye
+(000014) 12/18/2017 12:40:50 PM - student (192.168.113.55)> disconnected.
+(000015) 12/18/2017 13:16:20 PM - (not logged in) (192.168.113.56)> Connected, sending welcome message...
+(000015) 12/18/2017 13:16:20 PM - (not logged in) (192.168.113.56)> 220-FileZilla Server version 0.9.43 beta
+(000015) 12/18/2017 13:16:20 PM - (not logged in) (192.168.113.56)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000015) 12/18/2017 13:16:20 PM - (not logged in) (192.168.113.56)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000015) 12/18/2017 13:16:20 PM - (not logged in) (192.168.113.56)> USER student
+(000015) 12/18/2017 13:16:20 PM - (not logged in) (192.168.113.56)> 331 Password required for student
+(000015) 12/18/2017 13:16:20 PM - (not logged in) (192.168.113.56)> PASS *******
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> 230 Logged on
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> SYST
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> 215 UNIX emulated by FileZilla
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> FEAT
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> 211-Features:
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)>  MDTM
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)>  REST STREAM
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)>  SIZE
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)>  MLST type*;size*;modify*;
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)>  MLSD
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)>  UTF8
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)>  CLNT
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)>  MFMT
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> 211 End
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> CLNT Total Commander (UTF-8)
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> 200 Don't care
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> OPTS UTF8 ON
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> 202 UTF8 mode is always enabled. No need to send this command.
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> CWD /Dbd/Stud/Monday 12-14/Ionut LUNGU
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> CDUP
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> 200 CDUP successful. "/Dbd/Stud/Monday 12-14" is current directory.
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> PWD
+(000015) 12/18/2017 13:16:20 PM - student (192.168.113.56)> 257 "/Dbd/Stud/Monday 12-14" is current directory.
+(000015) 12/18/2017 13:16:21 PM - student (192.168.113.56)> CWD Ionut LUNGU
+(000015) 12/18/2017 13:16:21 PM - student (192.168.113.56)> 250 CWD successful. "/Dbd/Stud/Monday 12-14/Ionut LUNGU" is current directory.
+(000015) 12/18/2017 13:16:27 PM - student (192.168.113.56)> MKD week13
+(000015) 12/18/2017 13:16:27 PM - student (192.168.113.56)> 257 "/Dbd/Stud/Monday 12-14/Ionut LUNGU/week13" created successfully
+(000015) 12/18/2017 13:16:27 PM - student (192.168.113.56)> TYPE A
+(000015) 12/18/2017 13:16:27 PM - student (192.168.113.56)> 200 Type set to A
+(000015) 12/18/2017 13:16:27 PM - student (192.168.113.56)> PORT 192,168,113,56,4,59
+(000015) 12/18/2017 13:16:27 PM - student (192.168.113.56)> 200 Port command successful
+(000015) 12/18/2017 13:16:27 PM - student (192.168.113.56)> MLSD
+(000015) 12/18/2017 13:16:27 PM - student (192.168.113.56)> 150 Opening data channel for directory listing of "/Dbd/Stud/Monday 12-14/Ionut LUNGU"
+(000015) 12/18/2017 13:16:27 PM - student (192.168.113.56)> 226 Successfully transferred "/Dbd/Stud/Monday 12-14/Ionut LUNGU"
+(000015) 12/18/2017 13:16:30 PM - student (192.168.113.56)> QUIT
+(000015) 12/18/2017 13:16:30 PM - student (192.168.113.56)> 221 Goodbye
+(000015) 12/18/2017 13:16:30 PM - student (192.168.113.56)> disconnected.

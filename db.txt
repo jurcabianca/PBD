@@ -1,0 +1,14 @@
+Student: 
+	ID(PK)
+	Name
+
+File:
+	ID(PK)
+	FileName
+	Date
+	IP
+
+FTPLog:
+	ID(PK)
+	StudentID(FK)
+	FileID(FK)

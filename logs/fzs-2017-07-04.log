@@ -1,0 +1,51 @@
+FileZilla Server version 0.9.43 beta started
+Initializing Server.
+Creating listen socket on port 21...
+Server online.
+(000001) 7/4/2017 17:00:48 PM - (not logged in) (192.168.113.59)> Connected, sending welcome message...
+(000001) 7/4/2017 17:00:48 PM - (not logged in) (192.168.113.59)> 220-FileZilla Server version 0.9.43 beta
+(000001) 7/4/2017 17:00:48 PM - (not logged in) (192.168.113.59)> 220-written by Tim Kosse (tim.kosse@filezilla-project.org)
+(000001) 7/4/2017 17:00:48 PM - (not logged in) (192.168.113.59)> 220 Please visit http://sourceforge.net/projects/filezilla/
+(000001) 7/4/2017 17:00:48 PM - (not logged in) (192.168.113.59)> USER student
+(000001) 7/4/2017 17:00:48 PM - (not logged in) (192.168.113.59)> 331 Password required for student
+(000001) 7/4/2017 17:00:48 PM - (not logged in) (192.168.113.59)> PASS *******
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> 230 Logged on
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> SYST
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> 215 UNIX emulated by FileZilla
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> FEAT
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> 211-Features:
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)>  MDTM
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)>  REST STREAM
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)>  SIZE
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)>  MLST type*;size*;modify*;
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)>  MLSD
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)>  UTF8
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)>  CLNT
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)>  MFMT
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> 211 End
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> CLNT Total Commander (UTF-8)
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> 200 Don't care
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> OPTS UTF8 ON
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> 202 UTF8 mode is always enabled. No need to send this command.
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> CWD /
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> 250 CWD successful. "/" is current directory.
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> TYPE A
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> 200 Type set to A
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> PORT 192,168,113,59,4,16
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> 200 Port command successful
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> MLSD
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> 150 Opening data channel for directory listing of "/"
+(000001) 7/4/2017 17:00:48 PM - student (192.168.113.59)> 226 Successfully transferred "/"
+(000001) 7/4/2017 17:01:32 PM - student (192.168.113.59)> CWD /Dbd/Test02
+(000001) 7/4/2017 17:01:32 PM - student (192.168.113.59)> 250 CWD successful. "/Dbd/Test02" is current directory.
+(000001) 7/4/2017 17:01:32 PM - student (192.168.113.59)> PORT 192,168,113,59,4,22
+(000001) 7/4/2017 17:01:32 PM - student (192.168.113.59)> 200 Port command successful
+(000001) 7/4/2017 17:01:32 PM - student (192.168.113.59)> MLSD
+(000001) 7/4/2017 17:01:32 PM - student (192.168.113.59)> 150 Opening data channel for directory listing of "/Dbd/Test02"
+(000001) 7/4/2017 17:01:32 PM - student (192.168.113.59)> 226 Successfully transferred "/Dbd/Test02"
+(000001) 7/4/2017 17:03:33 PM - student (192.168.113.59)> 421 Connection timed out.
+(000001) 7/4/2017 17:03:33 PM - student (192.168.113.59)> disconnected.
+FileZilla Server version 0.9.43 beta started
+Initializing Server.
+Creating listen socket on port 21...
+Server online.
