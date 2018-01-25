@@ -11,6 +11,11 @@ Aproach:
 	* Path: Pbd
 	* Path(student name): Florea Caius
 	* File full path: /Pbd/Stud/Luni 08-10/Florea Caius/plSQL/Lab09/Lab09.sql
+- The information that my regular expression provides:
+	* Date: 1/9/2017 14:14:39 PM
+	* IP: 192.168.113.65
+	* Student name: Florea Caius
+	* File name: /plSQL/Lab09/Lab09.sql
 - I considered the following aspects:
 	* A student was attending the laboratory if in date XX/XX/XXXX he/she uploaded a file to Server location /Pbd/Stud/XXXX/Student Name/
 	* Every student must have in path /Pbd/Stud/XXXXX/ a folder with his name. *ex: Pbd/Stud/XXXXX/JURCA BIANCA EVELINE/*

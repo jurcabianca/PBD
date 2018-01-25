@@ -113,7 +113,7 @@ def get_students(logs):
     return list(set(students))
 
 
-def parse_logs(argv):
+def parse_logs(inputfolder):
     """
     This function takes as argument a folder Path, where the FTP logs are located.
     It parses each file, line by line.
@@ -123,8 +123,8 @@ def parse_logs(argv):
     """
     data = []
     print("Started parsing logs! This will take a while...")
-    for filename in os.listdir(argv):
-        with open(argv + filename) as f:
+    for filename in os.listdir(inputfolder):
+        with open(inputfolder + filename) as f:
             for line in f:
                 found = re.findall('.+\)\s(.+)\s-.+\(([0-9\.]+).+150.+upload.+\/Pbd\/Stud\/[^\/.]+\/([^\/.]+)\/(.+)\"', line)
                 if (found):
@@ -153,15 +153,15 @@ def main(argv):
     students = []
     inputfolder = ''
     if len(sys.argv) < 2:
-        print('USAGE: pytest.py -i <inputFolder>')
+        print('USAGE: python sqlGenerator.py -i <inputFolder>')
     try:
         opts, args = getopt.getopt(argv, "hi:", ["iFolder="])
     except getopt.GetoptError:
-        print('USAGE: pytest.py -i <inputFolder>')
+        print('USAGE: python sqlGenerator.py -i <inputFolder>')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print('pytest.py -i <inputFolder>')
+            print('python sqlGenerator.py -i <inputFolder>')
             sys.exit()
         elif opt in ("-i", "--iFolder"):
             inputfolder = arg
@@ -178,6 +178,6 @@ def main(argv):
                 write_sql_create_tables_script()
                 print('Program terminated successfully!')
         else:
-            print('USAGE: pytest.py -i <inputFolder>')
+            print('USAGE: python sqlGenerator.py -i <inputFolder>')
 if __name__ == '__main__':
     main(sys.argv[1:])
